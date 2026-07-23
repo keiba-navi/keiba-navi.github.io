@@ -1,0 +1,3553 @@
+{
+ "thin_data": false,
+ "condition": {
+  "race_id": "202607020207",
+  "source": "netkeiba:shutuba",
+  "complete": 0,
+  "grade": "G3",
+  "race_name": "東海Ｓ",
+  "surface": "ダート",
+  "distance": 1400,
+  "turn": "左",
+  "weather": null,
+  "going": null,
+  "date": "2026-07-26",
+  "course": "中京",
+  "race_no": 7,
+  "head_count": 14,
+  "draw_pending": true
+ },
+ "course_profile": {
+  "course": "中京",
+  "surface": "ダート",
+  "distance": 1400,
+  "tolerance": 200,
+  "races": 44,
+  "runners": 697,
+  "by_frame": [
+   {
+    "key": "1",
+    "n": 83,
+    "win": 3,
+    "top2": 9,
+    "top3": 16,
+    "win_rate": 0.03614457831325301,
+    "top3_rate": 0.1927710843373494,
+    "avg_finish": 9.337349397590362,
+    "win_score": 0.04290475460460651,
+    "top3_score": 0.19667074068917084,
+    "roi_win": 0.17710843373493976
+   },
+   {
+    "key": "2",
+    "n": 85,
+    "win": 5,
+    "top2": 7,
+    "top3": 13,
+    "win_rate": 0.058823529411764705,
+    "top3_rate": 0.15294117647058825,
+    "avg_finish": 7.894117647058824,
+    "win_score": 0.06113514023118543,
+    "top3_score": 0.16435320277128188,
+    "roi_win": 0.4329411764705882
+   },
+   {
+    "key": "3",
+    "n": 88,
+    "win": 7,
+    "top2": 15,
+    "top3": 21,
+    "win_rate": 0.07954545454545454,
+    "top3_rate": 0.23863636363636365,
+    "avg_finish": 7.590909090909091,
+    "win_score": 0.0779554604099488,
+    "top3_score": 0.23386191010170923,
+    "roi_win": 1.3386363636363636
+   },
+   {
+    "key": "4",
+    "n": 88,
+    "win": 7,
+    "top2": 11,
+    "top3": 15,
+    "win_rate": 0.07954545454545454,
+    "top3_rate": 0.17045454545454544,
+    "avg_finish": 8.465909090909092,
+    "win_score": 0.0779554604099488,
+    "top3_score": 0.17830635454615365,
+    "roi_win": 0.3840909090909091
+   },
+   {
+    "key": "5",
+    "n": 88,
+    "win": 6,
+    "top2": 10,
+    "top3": 16,
+    "win_rate": 0.06818181818181818,
+    "top3_rate": 0.18181818181818182,
+    "avg_finish": 8.602272727272727,
+    "win_score": 0.06869620115068954,
+    "top3_score": 0.18756561380541292,
+    "roi_win": 0.5318181818181819
+   },
+   {
+    "key": "6",
+    "n": 86,
+    "win": 8,
+    "top2": 16,
+    "top3": 22,
+    "win_rate": 0.09302325581395349,
+    "top3_rate": 0.2558139534883721,
+    "avg_finish": 8.36046511627907,
+    "win_score": 0.08886028041768369,
+    "top3_score": 0.24770836123570372,
+    "roi_win": 0.5302325581395348
+   },
+   {
+    "key": "7",
+    "n": 88,
+    "win": 3,
+    "top2": 11,
+    "top3": 15,
+    "win_rate": 0.03409090909090909,
+    "top3_rate": 0.17045454545454544,
+    "avg_finish": 8.625,
+    "win_score": 0.04091842337291176,
+    "top3_score": 0.17830635454615365,
+    "roi_win": 0.15227272727272728
+   },
+   {
+    "key": "8",
+    "n": 87,
+    "win": 5,
+    "top2": 9,
+    "top3": 15,
+    "win_rate": 0.05747126436781609,
+    "top3_rate": 0.1724137931034483,
+    "avg_finish": 8.241379310344827,
+    "win_score": 0.05999242732966795,
+    "top3_score": 0.1799727690746224,
+    "roi_win": 0.24022988505747125
+   }
+  ],
+  "by_style": [
+   {
+    "key": "逃げ",
+    "n": 44,
+    "win": 11,
+    "top2": 17,
+    "top3": 23,
+    "win_rate": 0.25,
+    "top3_rate": 0.5227272727272727,
+    "avg_finish": 5.613636363636363,
+    "win_score": 0.1940498394417886,
+    "top3_score": 0.4258919732966343,
+    "roi_win": 1.3363636363636364
+   },
+   {
+    "key": "先行",
+    "n": 162,
+    "win": 18,
+    "top2": 34,
+    "top3": 49,
+    "win_rate": 0.1111111111111111,
+    "top3_rate": 0.30246913580246915,
+    "avg_finish": 7.154320987654321,
+    "win_score": 0.10669884463887072,
+    "top3_score": 0.2926213532471681,
+    "roi_win": 0.6623456790123456
+   },
+   {
+    "key": "差し",
+    "n": 258,
+    "win": 11,
+    "top2": 29,
+    "top3": 48,
+    "win_rate": 0.04263565891472868,
+    "top3_rate": 0.18604651162790697,
+    "avg_finish": 8.143410852713178,
+    "win_score": 0.044673344331922556,
+    "top3_score": 0.18797513054311005,
+    "roi_win": 0.5054263565891473
+   },
+   {
+    "key": "追込",
+    "n": 229,
+    "win": 4,
+    "top2": 8,
+    "top3": 13,
+    "win_rate": 0.017467248908296942,
+    "top3_rate": 0.056768558951965066,
+    "avg_finish": 10.06113537117904,
+    "win_score": 0.02176381415371273,
+    "top3_score": 0.06930556743367307,
+    "roi_win": 0.14541484716157205
+   }
+  ],
+  "by_popularity": [
+   {
+    "key": "1",
+    "n": 44,
+    "win": 15,
+    "top2": 26,
+    "top3": 30,
+    "win_rate": 0.3409090909090909,
+    "top3_rate": 0.6818181818181818,
+    "avg_finish": 2.8181818181818183,
+    "win_score": 0.2565498394417886,
+    "top3_score": 0.5352669732966343,
+    "roi_win": 0.8409090909090909
+   },
+   {
+    "key": "2",
+    "n": 44,
+    "win": 9,
+    "top2": 14,
+    "top3": 20,
+    "win_rate": 0.20454545454545456,
+    "top3_rate": 0.45454545454545453,
+    "avg_finish": 4.704545454545454,
+    "win_score": 0.1627998394417886,
+    "top3_score": 0.3790169732966343,
+    "roi_win": 0.8818181818181818
+   },
+   {
+    "key": "3",
+    "n": 44,
+    "win": 8,
+    "top2": 14,
+    "top3": 20,
+    "win_rate": 0.18181818181818182,
+    "top3_rate": 0.45454545454545453,
+    "avg_finish": 5.863636363636363,
+    "win_score": 0.1471748394417886,
+    "top3_score": 0.3790169732966343,
+    "roi_win": 1.1022727272727273
+   },
+   {
+    "key": "4",
+    "n": 44,
+    "win": 3,
+    "top2": 14,
+    "top3": 17,
+    "win_rate": 0.06818181818181818,
+    "top3_rate": 0.38636363636363635,
+    "avg_finish": 5.863636363636363,
+    "win_score": 0.0690498394417886,
+    "top3_score": 0.3321419732966343,
+    "roi_win": 0.4954545454545455
+   },
+   {
+    "key": "5",
+    "n": 44,
+    "win": 3,
+    "top2": 4,
+    "top3": 13,
+    "win_rate": 0.06818181818181818,
+    "top3_rate": 0.29545454545454547,
+    "avg_finish": 6.659090909090909,
+    "win_score": 0.0690498394417886,
+    "top3_score": 0.2696419732966343,
+    "roi_win": 0.6295454545454545
+   },
+   {
+    "key": "6",
+    "n": 44,
+    "win": 2,
+    "top2": 3,
+    "top3": 8,
+    "win_rate": 0.045454545454545456,
+    "top3_rate": 0.18181818181818182,
+    "avg_finish": 7.659090909090909,
+    "win_score": 0.053424839441788594,
+    "top3_score": 0.1915169732966343,
+    "roi_win": 0.5818181818181818
+   },
+   {
+    "key": "7",
+    "n": 44,
+    "win": 2,
+    "top2": 4,
+    "top3": 6,
+    "win_rate": 0.045454545454545456,
+    "top3_rate": 0.13636363636363635,
+    "avg_finish": 7.954545454545454,
+    "win_score": 0.053424839441788594,
+    "top3_score": 0.1602669732966343,
+    "roi_win": 0.8181818181818182
+   },
+   {
+    "key": "8",
+    "n": 44,
+    "win": 1,
+    "top2": 3,
+    "top3": 5,
+    "win_rate": 0.022727272727272728,
+    "top3_rate": 0.11363636363636363,
+    "avg_finish": 8.613636363636363,
+    "win_score": 0.037799839441788594,
+    "top3_score": 0.1446419732966343,
+    "roi_win": 0.7636363636363637
+   },
+   {
+    "key": "9",
+    "n": 44,
+    "win": 0,
+    "top2": 1,
+    "top3": 3,
+    "win_rate": 0.0,
+    "top3_rate": 0.06818181818181818,
+    "avg_finish": 8.954545454545455,
+    "win_score": 0.022174839441788594,
+    "top3_score": 0.11339197329663432,
+    "roi_win": 0.0
+   },
+   {
+    "key": "10",
+    "n": 45,
+    "win": 0,
+    "top2": 1,
+    "top3": 4,
+    "win_rate": 0.0,
+    "top3_rate": 0.08888888888888889,
+    "avg_finish": 9.511111111111111,
+    "win_score": 0.021833688065761078,
+    "top3_score": 0.1270320967843784,
+    "roi_win": 0.0
+   },
+   {
+    "key": "11",
+    "n": 43,
+    "win": 0,
+    "top2": 1,
+    "top3": 4,
+    "win_rate": 0.0,
+    "top3_rate": 0.09302325581395349,
+    "avg_finish": 9.30232558139535,
+    "win_score": 0.02252682102022968,
+    "top3_score": 0.13106486176166024,
+    "roi_win": 0.0
+   },
+   {
+    "key": "12",
+    "n": 44,
+    "win": 0,
+    "top2": 1,
+    "top3": 1,
+    "win_rate": 0.0,
+    "top3_rate": 0.022727272727272728,
+    "avg_finish": 11.0,
+    "win_score": 0.022174839441788594,
+    "top3_score": 0.08214197329663432,
+    "roi_win": 0.0
+   },
+   {
+    "key": "13",
+    "n": 44,
+    "win": 1,
+    "top2": 1,
+    "top3": 1,
+    "win_rate": 0.022727272727272728,
+    "top3_rate": 0.022727272727272728,
+    "avg_finish": 10.454545454545455,
+    "win_score": 0.037799839441788594,
+    "top3_score": 0.08214197329663432,
+    "roi_win": 1.3818181818181818
+   },
+   {
+    "key": "14",
+    "n": 43,
+    "win": 0,
+    "top2": 0,
+    "top3": 0,
+    "win_rate": 0.0,
+    "top3_rate": 0.0,
+    "avg_finish": 10.930232558139535,
+    "win_score": 0.02252682102022968,
+    "top3_score": 0.06757279826959676,
+    "roi_win": 0.0
+   },
+   {
+    "key": "15",
+    "n": 42,
+    "win": 0,
+    "top2": 1,
+    "top3": 1,
+    "win_rate": 0.0,
+    "top3_rate": 0.023809523809523808,
+    "avg_finish": 11.571428571428571,
+    "win_score": 0.022890156843136614,
+    "top3_score": 0.08479171437071929,
+    "roi_win": 0.0
+   },
+   {
+    "key": "16",
+    "n": 36,
+    "win": 0,
+    "top2": 0,
+    "top3": 0,
+    "win_rate": 0.0,
+    "top3_rate": 0.0,
+    "avg_finish": 13.416666666666666,
+    "win_score": 0.02534267364775839,
+    "top3_score": 0.07601939805329637,
+    "roi_win": 0.0
+   }
+  ],
+  "by_grade": [
+   {
+    "key": "G3",
+    "n": 31,
+    "win": 2,
+    "top2": 4,
+    "top3": 6,
+    "win_rate": 0.06451612903225806,
+    "top3_rate": 0.1935483870967742,
+    "avg_finish": 8.258064516129032,
+    "win_score": 0.06704293577008764,
+    "top3_score": 0.20111933903891363,
+    "roi_win": 0.3967741935483871
+   },
+   {
+    "key": "2勝",
+    "n": 191,
+    "win": 12,
+    "top2": 24,
+    "top3": 37,
+    "win_rate": 0.06282722513089005,
+    "top3_rate": 0.193717277486911,
+    "avg_finish": 8.455497382198953,
+    "win_score": 0.06359805556528185,
+    "top3_score": 0.1955312146492161,
+    "roi_win": 0.24712041884816754
+   },
+   {
+    "key": "1勝",
+    "n": 265,
+    "win": 17,
+    "top2": 34,
+    "top3": 51,
+    "win_rate": 0.06415094339622641,
+    "top3_rate": 0.19245283018867926,
+    "avg_finish": 8.316981132075473,
+    "win_score": 0.06462873587464726,
+    "top3_score": 0.19388451330170034,
+    "roi_win": 0.5584905660377358
+   },
+   {
+    "key": "未勝利",
+    "n": 174,
+    "win": 11,
+    "top2": 22,
+    "top3": 33,
+    "win_rate": 0.06321839080459771,
+    "top3_rate": 0.1896551724137931,
+    "avg_finish": 8.413793103448276,
+    "win_score": 0.06401644187770346,
+    "top3_score": 0.19204683655146698,
+    "roi_win": 0.29367816091954024
+   }
+  ],
+  "chaos": {
+   "fav_win_rate": 0.3409090909090909,
+   "longshot_win_rate": 0.13636363636363635,
+   "trifecta_median": null,
+   "score": 0.493
+  }
+ },
+ "race_name_profile": {
+  "race_name": "東海Ｓ",
+  "runners": 0,
+  "years": [],
+  "by_frame": [],
+  "by_style": [],
+  "by_popularity": [],
+  "prev_grade": []
+ },
+ "pace": {
+  "label": "スローペース",
+  "pressure": 0.286,
+  "nige": 0,
+  "senko": 4,
+  "known": 14,
+  "unknown": 0,
+  "favored_styles": [
+   "逃げ",
+   "先行"
+  ],
+  "comment": "前に行く馬が少なく落ち着きそう。逃げ・先行がそのまま残りやすい。（逃げ0・先行4頭）"
+ },
+ "sex_age": {
+  "runners": 203,
+  "by_sex": [
+   {
+    "key": "牡",
+    "n": 167,
+    "win": 12,
+    "top2": 23,
+    "top3": 35,
+    "win_rate": 0.0718562874251497,
+    "top3_rate": 0.20958083832335328,
+    "avg_finish": 8.155688622754491,
+    "win_score": 0.07171971871274976,
+    "top3_score": 0.21007933724099948,
+    "roi_win": 0.3317365269461078
+   },
+   {
+    "key": "牝",
+    "n": 22,
+    "win": 1,
+    "top2": 3,
+    "top3": 4,
+    "win_rate": 0.045454545454545456,
+    "top3_rate": 0.18181818181818182,
+    "avg_finish": 8.545454545454545,
+    "win_score": 0.06016893435407125,
+    "top3_score": 0.19972364300917103,
+    "roi_win": 0.15
+   },
+   {
+    "key": "セ",
+    "n": 14,
+    "win": 0,
+    "top2": 0,
+    "top3": 0,
+    "win_rate": 0.0,
+    "top3_rate": 0.0,
+    "avg_finish": 9.857142857142858,
+    "win_score": 0.04838146787299329,
+    "top3_score": 0.14512794173811125,
+    "roi_win": 0.0
+   }
+  ],
+  "by_age": [
+   {
+    "key": "3",
+    "n": 30,
+    "win": 4,
+    "top2": 6,
+    "top3": 9,
+    "win_rate": 0.13333333333333333,
+    "top3_rate": 0.3,
+    "avg_finish": 7.066666666666666,
+    "win_score": 0.10214640977352842,
+    "top3_score": 0.2564271572746149,
+    "roi_win": 0.46
+   },
+   {
+    "key": "4",
+    "n": 44,
+    "win": 4,
+    "top2": 9,
+    "top3": 15,
+    "win_rate": 0.09090909090909091,
+    "top3_rate": 0.3409090909090909,
+    "avg_finish": 7.545454545454546,
+    "win_score": 0.0828214133298879,
+    "top3_score": 0.2889949923848229,
+    "roi_win": 0.3
+   },
+   {
+    "key": "5",
+    "n": 52,
+    "win": 4,
+    "top2": 7,
+    "top3": 8,
+    "win_rate": 0.07692307692307693,
+    "top3_rate": 0.15384615384615385,
+    "avg_finish": 7.8076923076923075,
+    "win_score": 0.07474127544404517,
+    "top3_score": 0.17543450532288896,
+    "roi_win": 0.3557692307692308
+   },
+   {
+    "key": "6",
+    "n": 44,
+    "win": 1,
+    "top2": 3,
+    "top3": 4,
+    "win_rate": 0.022727272727272728,
+    "top3_rate": 0.09090909090909091,
+    "avg_finish": 9.113636363636363,
+    "win_score": 0.04228087278934736,
+    "top3_score": 0.14034634373617424,
+    "roi_win": 0.3
+   },
+   {
+    "key": "7",
+    "n": 23,
+    "win": 0,
+    "top2": 1,
+    "top3": 3,
+    "win_rate": 0.0,
+    "top3_rate": 0.13043478260869565,
+    "avg_finish": 10.130434782608695,
+    "win_score": 0.0401657469134284,
+    "top3_score": 0.1770873478580546,
+    "roi_win": 0.0
+   },
+   {
+    "key": "8",
+    "n": 8,
+    "win": 0,
+    "top2": 0,
+    "top3": 0,
+    "win_rate": 0.0,
+    "top3_rate": 0.0,
+    "avg_finish": 9.25,
+    "win_score": 0.05602064701083434,
+    "top3_score": 0.1680428799072867,
+    "roi_win": 0.0
+   },
+   {
+    "key": "9",
+    "n": 2,
+    "win": 0,
+    "top2": 0,
+    "top3": 0,
+    "win_rate": 0.0,
+    "top3_rate": 0.0,
+    "avg_finish": 15.0,
+    "win_score": 0.06652451832536578,
+    "top3_score": 0.19955091988990295,
+    "roi_win": 0.0
+   }
+  ]
+ },
+ "sleepers": [
+  {
+   "horse_no": 5,
+   "horse_name": "ドラゴンテイラー",
+   "rank": 4,
+   "fit": 0.256,
+   "good": [
+    "距離帯 短距離(〜1400)",
+    "1400m",
+    "ダート",
+    "左回り"
+   ],
+   "reason": "得意条件が5個そろう（距離帯 短距離(〜1400)・1400m・ダート）"
+  },
+  {
+   "horse_no": 13,
+   "horse_name": "メイショウハチロー",
+   "rank": 6,
+   "fit": 0.213,
+   "good": [
+    "距離帯 短距離(〜1400)",
+    "1400m",
+    "ダート",
+    "左回り"
+   ],
+   "reason": "得意条件が4個そろう（距離帯 短距離(〜1400)・1400m・ダート）"
+  },
+  {
+   "horse_no": 3,
+   "horse_name": "ジュンウィンダム",
+   "rank": 11,
+   "fit": 0.209,
+   "good": [
+    "1400m",
+    "左回り",
+    "中京"
+   ],
+   "reason": "得意条件が3個そろう（1400m・左回り・中京）"
+  },
+  {
+   "horse_no": 12,
+   "horse_name": "マテンロウコマンド",
+   "rank": 7,
+   "fit": 0.19,
+   "good": [
+    "距離帯 短距離(〜1400)",
+    "1400m",
+    "ダート",
+    "左回り"
+   ],
+   "reason": "得意条件が5個そろう（距離帯 短距離(〜1400)・1400m・ダート）"
+  }
+ ],
+ "bets": {
+  "plans": [
+   {
+    "type": "馬連",
+    "targets": [
+     7,
+     4,
+     1,
+     5,
+     11
+    ],
+    "label": "7 → 4・1・5・11",
+    "reason": "◎ドンインザムードから4点流し（荒れ度49%）"
+   },
+   {
+    "type": "3連複",
+    "targets": [
+     7,
+     4,
+     1,
+     5,
+     11
+    ],
+    "label": "7 - 4・1・5・11 - 4・1・5・11",
+    "reason": "◎軸1頭、相手4頭のBOX（6点）"
+   }
+  ],
+  "axis": {
+   "horse_no": 7,
+   "horse_name": "ドンインザムード",
+   "win_prob": 0.5026
+  },
+  "has_odds": false,
+  "places": 3,
+  "note": "オッズ未取得のため期待値は出していません。スコア順の組み立てのみ。",
+  "rows": [
+   {
+    "horse_no": 7,
+    "horse_name": "ドンインザムード",
+    "score": 100.0,
+    "odds": null,
+    "popularity": null,
+    "win_prob": 0.5026,
+    "top3_prob": 0.902,
+    "market_prob": null,
+    "ev": null,
+    "edge_ratio": null
+   },
+   {
+    "horse_no": 4,
+    "horse_name": "ダノンフィーゴ",
+    "score": 82.0,
+    "odds": null,
+    "popularity": null,
+    "win_prob": 0.1121,
+    "top3_prob": 0.4365,
+    "market_prob": null,
+    "ev": null,
+    "edge_ratio": null
+   },
+   {
+    "horse_no": 1,
+    "horse_name": "インユアパレス",
+    "score": 77.7,
+    "odds": null,
+    "popularity": null,
+    "win_prob": 0.0784,
+    "top3_prob": 0.3238,
+    "market_prob": null,
+    "ev": null,
+    "edge_ratio": null
+   },
+   {
+    "horse_no": 5,
+    "horse_name": "ドラゴンテイラー",
+    "score": 74.2,
+    "odds": null,
+    "popularity": null,
+    "win_prob": 0.0585,
+    "top3_prob": 0.2494,
+    "market_prob": null,
+    "ev": null,
+    "edge_ratio": null
+   },
+   {
+    "horse_no": 11,
+    "horse_name": "ベルジュロネット",
+    "score": 73.5,
+    "odds": null,
+    "popularity": null,
+    "win_prob": 0.0552,
+    "top3_prob": 0.2364,
+    "market_prob": null,
+    "ev": null,
+    "edge_ratio": null
+   },
+   {
+    "horse_no": 13,
+    "horse_name": "メイショウハチロー",
+    "score": 72.0,
+    "odds": null,
+    "popularity": null,
+    "win_prob": 0.0487,
+    "top3_prob": 0.2105,
+    "market_prob": null,
+    "ev": null,
+    "edge_ratio": null
+   },
+   {
+    "horse_no": 12,
+    "horse_name": "マテンロウコマンド",
+    "score": 69.0,
+    "odds": null,
+    "popularity": null,
+    "win_prob": 0.038,
+    "top3_prob": 0.1664,
+    "market_prob": null,
+    "ev": null,
+    "edge_ratio": null
+   },
+   {
+    "horse_no": 2,
+    "horse_name": "ケイアイドリー",
+    "score": 68.6,
+    "odds": null,
+    "popularity": null,
+    "win_prob": 0.0367,
+    "top3_prob": 0.1612,
+    "market_prob": null,
+    "ev": null,
+    "edge_ratio": null
+   },
+   {
+    "horse_no": 10,
+    "horse_name": "バトルクライ",
+    "score": 63.0,
+    "odds": null,
+    "popularity": null,
+    "win_prob": 0.023,
+    "top3_prob": 0.1028,
+    "market_prob": null,
+    "ev": null,
+    "edge_ratio": null
+   },
+   {
+    "horse_no": 14,
+    "horse_name": "モンドプリューム",
+    "score": 61.4,
+    "odds": null,
+    "popularity": null,
+    "win_prob": 0.0201,
+    "top3_prob": 0.0903,
+    "market_prob": null,
+    "ev": null,
+    "edge_ratio": null
+   },
+   {
+    "horse_no": 3,
+    "horse_name": "ジュンウィンダム",
+    "score": 55.7,
+    "odds": null,
+    "popularity": null,
+    "win_prob": 0.0125,
+    "top3_prob": 0.0567,
+    "market_prob": null,
+    "ev": null,
+    "edge_ratio": null
+   },
+   {
+    "horse_no": 8,
+    "horse_name": "ノーブルロジャー",
+    "score": 52.3,
+    "odds": null,
+    "popularity": null,
+    "win_prob": 0.0094,
+    "top3_prob": 0.0429,
+    "market_prob": null,
+    "ev": null,
+    "edge_ratio": null
+   },
+   {
+    "horse_no": 6,
+    "horse_name": "トリリオンボーイ",
+    "score": 39.2,
+    "odds": null,
+    "popularity": null,
+    "win_prob": 0.0032,
+    "top3_prob": 0.0145,
+    "market_prob": null,
+    "ev": null,
+    "edge_ratio": null
+   },
+   {
+    "horse_no": 9,
+    "horse_name": "ハッピーマン",
+    "score": 30.0,
+    "odds": null,
+    "popularity": null,
+    "win_prob": 0.0015,
+    "top3_prob": 0.0067,
+    "market_prob": null,
+    "ev": null,
+    "edge_ratio": null
+   }
+  ]
+ },
+ "predictions": [
+  {
+   "horse_id": "2022106942",
+   "horse_name": "ドンインザムード",
+   "fit": 0.24,
+   "fit_good": [
+    "距離帯 短距離(〜1400)",
+    "1400m",
+    "ダート",
+    "左回り",
+    "中京",
+    "荻野極騎乗"
+   ],
+   "fit_bad": [],
+   "horse_no": 7,
+   "frame": 4,
+   "jockey": "荻野極",
+   "odds": null,
+   "popularity": null,
+   "main_style": "先行",
+   "raw": 12.0349,
+   "reasons": [
+    {
+     "label": "総合力",
+     "edge": 1.839,
+     "n": 10,
+     "contrib": 5.517,
+     "note": "",
+     "top3_rate": 0.8
+    },
+    {
+     "label": "近況(5走)",
+     "edge": 0.976,
+     "n": 5,
+     "contrib": 1.428,
+     "note": "直近ほど重い加重平均"
+    },
+    {
+     "label": "中5〜10週(64日)",
+     "edge": 1.849,
+     "n": 5,
+     "contrib": 1.109,
+     "note": "同じ間隔での過去成績",
+     "top3_rate": 1.0
+    },
+    {
+     "label": "ダート",
+     "edge": 0.216,
+     "n": 10,
+     "contrib": 0.786,
+     "note": "※自身の平均比",
+     "top3_rate": 0.8
+    },
+    {
+     "label": "中京",
+     "edge": 0.187,
+     "n": 2,
+     "contrib": 0.73,
+     "note": "※自身の平均比",
+     "top3_rate": 1.0
+    },
+    {
+     "label": "左回り",
+     "edge": 0.382,
+     "n": 7,
+     "contrib": 0.695,
+     "note": "※自身の平均比",
+     "top3_rate": 1.0
+    },
+    {
+     "label": "荻野極騎乗",
+     "edge": 0.291,
+     "n": 4,
+     "contrib": 0.681,
+     "note": "※自身の平均比",
+     "top3_rate": 1.0
+    },
+    {
+     "label": "展開:スローペース × 先行",
+     "edge": 0.5,
+     "n": 14,
+     "contrib": 0.4,
+     "note": "展開が向く"
+    },
+    {
+     "label": "G3実績",
+     "edge": 0.109,
+     "n": 1,
+     "contrib": 0.312,
+     "note": "※自身の平均比",
+     "top3_rate": 1.0
+    },
+    {
+     "label": "4歳",
+     "edge": 0.358,
+     "n": 44,
+     "contrib": 0.179,
+     "note": "この条件での年齢の傾向",
+     "top3_rate": 0.341
+    },
+    {
+     "label": "脚質:先行",
+     "edge": 0.375,
+     "n": 162,
+     "contrib": 0.106,
+     "note": "このコースでの脚質傾向。44レースから。信頼度×0.35",
+     "top3_rate": 0.302
+    },
+    {
+     "label": "枠4の有利不利",
+     "edge": -0.162,
+     "n": 88,
+     "contrib": -0.04,
+     "note": "このコースでの枠傾向。44レースから。信頼度×0.35",
+     "top3_rate": 0.17
+    },
+    {
+     "label": "産駒:アジアエクスプレス × ダート",
+     "edge": 0.17,
+     "n": 203,
+     "contrib": 0.038,
+     "note": "産駒の芝ダート適性。自身10戦なので血統の重み×0.38",
+     "top3_rate": 0.458
+    },
+    {
+     "label": "産駒:アジアエクスプレス × 短距離(〜1400)",
+     "edge": 0.135,
+     "n": 121,
+     "contrib": 0.03,
+     "note": "産駒の距離適性。自身10戦なので血統の重み×0.38",
+     "top3_rate": 0.446
+    },
+    {
+     "label": "母父:Running Stag × ダート",
+     "edge": 0.17,
+     "n": 203,
+     "contrib": 0.026,
+     "note": "産駒の芝ダート適性。自身10戦なので血統の重み×0.38",
+     "top3_rate": 0.458
+    },
+    {
+     "label": "産駒:アジアエクスプレスの強さ",
+     "edge": 0.126,
+     "n": 262,
+     "contrib": 0.024,
+     "note": "産駒全体の成績。自身10戦なので血統の重み×0.38",
+     "top3_rate": 0.439
+    },
+    {
+     "label": "母父:Running Stag × 短距離(〜1400)",
+     "edge": 0.135,
+     "n": 121,
+     "contrib": 0.02,
+     "note": "産駒の距離適性。自身10戦なので血統の重み×0.38",
+     "top3_rate": 0.446
+    },
+    {
+     "label": "牡馬",
+     "edge": -0.013,
+     "n": 167,
+     "contrib": -0.007,
+     "note": "この条件での性別の傾向",
+     "top3_rate": 0.21
+    },
+    {
+     "label": "距離帯 短距離(〜1400)",
+     "edge": 0.246,
+     "n": 3,
+     "contrib": 0.0,
+     "note": "※自身の平均比",
+     "top3_rate": 1.0
+    },
+    {
+     "label": "1400m",
+     "edge": 0.246,
+     "n": 3,
+     "contrib": 0.0,
+     "note": "※自身の平均比",
+     "top3_rate": 1.0
+    },
+    {
+     "label": "馬場-",
+     "edge": null,
+     "n": 0,
+     "contrib": 0.0,
+     "note": "データなし"
+    },
+    {
+     "label": "東海Ｓ実績",
+     "edge": null,
+     "n": 0,
+     "contrib": 0.0,
+     "note": "データなし"
+    },
+    {
+     "label": "スローペース実績",
+     "edge": null,
+     "n": 0,
+     "contrib": 0.0,
+     "note": "データなし"
+    },
+    {
+     "label": "母父:Running Stagの強さ",
+     "edge": 0.126,
+     "n": 262,
+     "contrib": 0.0,
+     "note": "産駒全体の成績。自身10戦なので血統の重み×0.38",
+     "top3_rate": 0.439
+    }
+   ],
+   "score": 100.0,
+   "mark": "◎",
+   "rank": 1,
+   "actual": null
+  },
+  {
+   "horse_id": "2022100623",
+   "horse_name": "ダノンフィーゴ",
+   "fit": 0.213,
+   "fit_good": [
+    "距離帯 短距離(〜1400)",
+    "1400m",
+    "ダート",
+    "左回り",
+    "中京"
+   ],
+   "fit_bad": [],
+   "horse_no": 4,
+   "frame": 3,
+   "jockey": "川田",
+   "odds": null,
+   "popularity": null,
+   "main_style": "差し",
+   "raw": 8.8699,
+   "reasons": [
+    {
+     "label": "総合力",
+     "edge": 1.839,
+     "n": 10,
+     "contrib": 5.517,
+     "note": "",
+     "top3_rate": 0.8
+    },
+    {
+     "label": "近況(5走)",
+     "edge": 0.942,
+     "n": 5,
+     "contrib": 1.326,
+     "note": "直近ほど重い加重平均"
+    },
+    {
+     "label": "ダート",
+     "edge": 0.216,
+     "n": 10,
+     "contrib": 0.786,
+     "note": "※自身の平均比",
+     "top3_rate": 0.8
+    },
+    {
+     "label": "中京",
+     "edge": 0.187,
+     "n": 2,
+     "contrib": 0.73,
+     "note": "※自身の平均比",
+     "top3_rate": 1.0
+    },
+    {
+     "label": "展開:スローペース × 差し",
+     "edge": -0.5,
+     "n": 14,
+     "contrib": -0.4,
+     "note": "展開が向かない"
+    },
+    {
+     "label": "G3実績",
+     "edge": 0.109,
+     "n": 1,
+     "contrib": 0.312,
+     "note": "※自身の平均比",
+     "top3_rate": 1.0
+    },
+    {
+     "label": "左回り",
+     "edge": 0.162,
+     "n": 5,
+     "contrib": 0.295,
+     "note": "※自身の平均比",
+     "top3_rate": 0.8
+    },
+    {
+     "label": "4歳",
+     "edge": 0.358,
+     "n": 44,
+     "contrib": 0.179,
+     "note": "この条件での年齢の傾向",
+     "top3_rate": 0.341
+    },
+    {
+     "label": "産駒:Into Mischief × 短距離(〜1400)",
+     "edge": 0.173,
+     "n": 55,
+     "contrib": 0.039,
+     "note": "産駒の距離適性。自身10戦なので血統の重み×0.38",
+     "top3_rate": 0.473
+    },
+    {
+     "label": "脚質:差し",
+     "edge": -0.117,
+     "n": 258,
+     "contrib": -0.033,
+     "note": "このコースでの脚質傾向。44レースから。信頼度×0.35",
+     "top3_rate": 0.186
+    },
+    {
+     "label": "産駒:Into Mischief × ダート",
+     "edge": 0.126,
+     "n": 74,
+     "contrib": 0.028,
+     "note": "産駒の芝ダート適性。自身10戦なので血統の重み×0.38",
+     "top3_rate": 0.446
+    },
+    {
+     "label": "母父:Tricky Creek × ダート",
+     "edge": 0.183,
+     "n": 85,
+     "contrib": 0.027,
+     "note": "産駒の芝ダート適性。自身10戦なので血統の重み×0.38",
+     "top3_rate": 0.471
+    },
+    {
+     "label": "母父:Tricky Creek × 短距離(〜1400)",
+     "edge": 0.177,
+     "n": 57,
+     "contrib": 0.026,
+     "note": "産駒の距離適性。自身10戦なので血統の重み×0.38",
+     "top3_rate": 0.474
+    },
+    {
+     "label": "枠3の有利不利",
+     "edge": 0.099,
+     "n": 88,
+     "contrib": 0.025,
+     "note": "このコースでの枠傾向。44レースから。信頼度×0.35",
+     "top3_rate": 0.239
+    },
+    {
+     "label": "産駒:Into Mischiefの強さ",
+     "edge": 0.105,
+     "n": 85,
+     "contrib": 0.02,
+     "note": "産駒全体の成績。自身10戦なので血統の重み×0.38",
+     "top3_rate": 0.435
+    },
+    {
+     "label": "牡馬",
+     "edge": -0.013,
+     "n": 167,
+     "contrib": -0.007,
+     "note": "この条件での性別の傾向",
+     "top3_rate": 0.21
+    },
+    {
+     "label": "距離帯 短距離(〜1400)",
+     "edge": 0.303,
+     "n": 9,
+     "contrib": 0.0,
+     "note": "※自身の平均比",
+     "top3_rate": 0.889
+    },
+    {
+     "label": "1400m",
+     "edge": 0.303,
+     "n": 9,
+     "contrib": 0.0,
+     "note": "※自身の平均比",
+     "top3_rate": 0.889
+    },
+    {
+     "label": "馬場-",
+     "edge": null,
+     "n": 0,
+     "contrib": 0.0,
+     "note": "データなし"
+    },
+    {
+     "label": "川田騎乗",
+     "edge": null,
+     "n": 0,
+     "contrib": 0.0,
+     "note": "データなし"
+    },
+    {
+     "label": "東海Ｓ実績",
+     "edge": null,
+     "n": 0,
+     "contrib": 0.0,
+     "note": "データなし"
+    },
+    {
+     "label": "スローペース実績",
+     "edge": null,
+     "n": 0,
+     "contrib": 0.0,
+     "note": "データなし"
+    },
+    {
+     "label": "母父:Tricky Creekの強さ",
+     "edge": 0.159,
+     "n": 96,
+     "contrib": 0.0,
+     "note": "産駒全体の成績。自身10戦なので血統の重み×0.38",
+     "top3_rate": 0.458
+    },
+    {
+     "label": "長期休養明け(6ヶ月〜)(175日)",
+     "edge": null,
+     "n": 0,
+     "contrib": 0.0,
+     "note": "データなし"
+    }
+   ],
+   "score": 82.0,
+   "mark": "○",
+   "rank": 2,
+   "actual": null
+  },
+  {
+   "horse_id": "2021110126",
+   "horse_name": "インユアパレス",
+   "fit": 0.124,
+   "fit_good": [
+    "ダート",
+    "左回り",
+    "中京"
+   ],
+   "fit_bad": [
+    "G3実績"
+   ],
+   "horse_no": 1,
+   "frame": 1,
+   "jockey": "横山武",
+   "odds": null,
+   "popularity": null,
+   "main_style": "差し",
+   "raw": 8.1137,
+   "reasons": [
+    {
+     "label": "総合力",
+     "edge": 1.643,
+     "n": 20,
+     "contrib": 4.929,
+     "note": "",
+     "top3_rate": 0.65
+    },
+    {
+     "label": "近況(5走)",
+     "edge": 0.832,
+     "n": 5,
+     "contrib": 0.997,
+     "note": "直近ほど重い加重平均"
+    },
+    {
+     "label": "中5〜10週(70日)",
+     "edge": 1.553,
+     "n": 8,
+     "contrib": 0.932,
+     "note": "同じ間隔での過去成績",
+     "top3_rate": 0.75
+    },
+    {
+     "label": "中京",
+     "edge": 0.222,
+     "n": 2,
+     "contrib": 0.866,
+     "note": "※自身の平均比",
+     "top3_rate": 1.0
+    },
+    {
+     "label": "ダート",
+     "edge": 0.197,
+     "n": 17,
+     "contrib": 0.717,
+     "note": "※自身の平均比",
+     "top3_rate": 0.706
+    },
+    {
+     "label": "左回り",
+     "edge": 0.263,
+     "n": 6,
+     "contrib": 0.478,
+     "note": "※自身の平均比",
+     "top3_rate": 0.833
+    },
+    {
+     "label": "G3実績",
+     "edge": -0.153,
+     "n": 3,
+     "contrib": -0.437,
+     "note": "※自身の平均比",
+     "top3_rate": 0.333
+    },
+    {
+     "label": "展開:スローペース × 差し",
+     "edge": -0.5,
+     "n": 14,
+     "contrib": -0.4,
+     "note": "展開が向かない"
+    },
+    {
+     "label": "5歳",
+     "edge": -0.176,
+     "n": 52,
+     "contrib": -0.088,
+     "note": "この条件での年齢の傾向",
+     "top3_rate": 0.154
+    },
+    {
+     "label": "産駒:パレスマリスの強さ",
+     "edge": 0.427,
+     "n": 48,
+     "contrib": 0.049,
+     "note": "産駒全体の成績。自身20戦なので血統の重み×0.23",
+     "top3_rate": 0.604
+    },
+    {
+     "label": "産駒:パレスマリス × ダート",
+     "edge": 0.31,
+     "n": 26,
+     "contrib": 0.043,
+     "note": "産駒の芝ダート適性。自身20戦なので血統の重み×0.23",
+     "top3_rate": 0.577
+    },
+    {
+     "label": "産駒:パレスマリス × 短距離(〜1400)",
+     "edge": 0.249,
+     "n": 28,
+     "contrib": 0.035,
+     "note": "産駒の距離適性。自身20戦なので血統の重み×0.23",
+     "top3_rate": 0.536
+    },
+    {
+     "label": "脚質:差し",
+     "edge": -0.117,
+     "n": 258,
+     "contrib": -0.033,
+     "note": "このコースでの脚質傾向。44レースから。信頼度×0.35",
+     "top3_rate": 0.186
+    },
+    {
+     "label": "母父:Royal Anthem × ダート",
+     "edge": 0.31,
+     "n": 26,
+     "contrib": 0.029,
+     "note": "産駒の芝ダート適性。自身20戦なので血統の重み×0.23",
+     "top3_rate": 0.577
+    },
+    {
+     "label": "母父:Royal Anthem × 短距離(〜1400)",
+     "edge": 0.249,
+     "n": 28,
+     "contrib": 0.023,
+     "note": "産駒の距離適性。自身20戦なので血統の重み×0.23",
+     "top3_rate": 0.536
+    },
+    {
+     "label": "枠1の有利不利",
+     "edge": -0.076,
+     "n": 83,
+     "contrib": -0.019,
+     "note": "このコースでの枠傾向。44レースから。信頼度×0.35",
+     "top3_rate": 0.193
+    },
+    {
+     "label": "牡馬",
+     "edge": -0.013,
+     "n": 167,
+     "contrib": -0.007,
+     "note": "この条件での性別の傾向",
+     "top3_rate": 0.21
+    },
+    {
+     "label": "距離帯 短距離(〜1400)",
+     "edge": 0.145,
+     "n": 18,
+     "contrib": 0.0,
+     "note": "※自身の平均比",
+     "top3_rate": 0.667
+    },
+    {
+     "label": "1400m",
+     "edge": 0.068,
+     "n": 8,
+     "contrib": 0.0,
+     "note": "※自身の平均比",
+     "top3_rate": 0.625
+    },
+    {
+     "label": "馬場-",
+     "edge": null,
+     "n": 0,
+     "contrib": 0.0,
+     "note": "データなし"
+    },
+    {
+     "label": "横山武騎乗",
+     "edge": null,
+     "n": 0,
+     "contrib": 0.0,
+     "note": "データなし"
+    },
+    {
+     "label": "東海Ｓ実績",
+     "edge": null,
+     "n": 0,
+     "contrib": 0.0,
+     "note": "データなし"
+    },
+    {
+     "label": "スローペース実績",
+     "edge": null,
+     "n": 0,
+     "contrib": 0.0,
+     "note": "データなし"
+    },
+    {
+     "label": "母父:Royal Anthemの強さ",
+     "edge": 0.427,
+     "n": 48,
+     "contrib": 0.0,
+     "note": "産駒全体の成績。自身20戦なので血統の重み×0.23",
+     "top3_rate": 0.604
+    }
+   ],
+   "score": 77.7,
+   "mark": "▲",
+   "rank": 3,
+   "actual": null
+  },
+  {
+   "horse_id": "2022110138",
+   "horse_name": "ドラゴンテイラー",
+   "fit": 0.256,
+   "fit_good": [
+    "距離帯 短距離(〜1400)",
+    "1400m",
+    "ダート",
+    "左回り",
+    "中京"
+   ],
+   "fit_bad": [],
+   "horse_no": 5,
+   "frame": 3,
+   "jockey": "坂井",
+   "odds": null,
+   "popularity": null,
+   "main_style": "先行",
+   "raw": 7.4956,
+   "reasons": [
+    {
+     "label": "総合力",
+     "edge": 1.163,
+     "n": 6,
+     "contrib": 3.489,
+     "note": "",
+     "top3_rate": 0.667
+    },
+    {
+     "label": "近況(5走)",
+     "edge": 0.871,
+     "n": 5,
+     "contrib": 1.113,
+     "note": "直近ほど重い加重平均"
+    },
+    {
+     "label": "ダート",
+     "edge": 0.244,
+     "n": 6,
+     "contrib": 0.89,
+     "note": "※自身の平均比",
+     "top3_rate": 0.667
+    },
+    {
+     "label": "中京",
+     "edge": 0.168,
+     "n": 3,
+     "contrib": 0.655,
+     "note": "※自身の平均比",
+     "top3_rate": 0.667
+    },
+    {
+     "label": "展開:スローペース × 先行",
+     "edge": 0.5,
+     "n": 14,
+     "contrib": 0.4,
+     "note": "展開が向く"
+    },
+    {
+     "label": "休み明け(3〜6ヶ月)(127日)",
+     "edge": 0.616,
+     "n": 1,
+     "contrib": 0.37,
+     "note": "同じ間隔での過去成績",
+     "top3_rate": 1.0
+    },
+    {
+     "label": "左回り",
+     "edge": 0.152,
+     "n": 5,
+     "contrib": 0.276,
+     "note": "※自身の平均比",
+     "top3_rate": 0.6
+    },
+    {
+     "label": "4歳",
+     "edge": 0.358,
+     "n": 44,
+     "contrib": 0.179,
+     "note": "この条件での年齢の傾向",
+     "top3_rate": 0.341
+    },
+    {
+     "label": "脚質:先行",
+     "edge": 0.375,
+     "n": 162,
+     "contrib": 0.106,
+     "note": "このコースでの脚質傾向。44レースから。信頼度×0.35",
+     "top3_rate": 0.302
+    },
+    {
+     "label": "枠3の有利不利",
+     "edge": 0.099,
+     "n": 88,
+     "contrib": 0.025,
+     "note": "このコースでの枠傾向。44レースから。信頼度×0.35",
+     "top3_rate": 0.239
+    },
+    {
+     "label": "牡馬",
+     "edge": -0.013,
+     "n": 167,
+     "contrib": -0.007,
+     "note": "この条件での性別の傾向",
+     "top3_rate": 0.21
+    },
+    {
+     "label": "距離帯 短距離(〜1400)",
+     "edge": 0.521,
+     "n": 4,
+     "contrib": 0.0,
+     "note": "※自身の平均比",
+     "top3_rate": 1.0
+    },
+    {
+     "label": "1400m",
+     "edge": 0.195,
+     "n": 1,
+     "contrib": 0.0,
+     "note": "※自身の平均比",
+     "top3_rate": 1.0
+    },
+    {
+     "label": "馬場-",
+     "edge": null,
+     "n": 0,
+     "contrib": 0.0,
+     "note": "データなし"
+    },
+    {
+     "label": "G3実績",
+     "edge": null,
+     "n": 0,
+     "contrib": 0.0,
+     "note": "データなし"
+    },
+    {
+     "label": "坂井騎乗",
+     "edge": null,
+     "n": 0,
+     "contrib": 0.0,
+     "note": "データなし"
+    },
+    {
+     "label": "東海Ｓ実績",
+     "edge": null,
+     "n": 0,
+     "contrib": 0.0,
+     "note": "データなし"
+    },
+    {
+     "label": "スローペース実績",
+     "edge": null,
+     "n": 0,
+     "contrib": 0.0,
+     "note": "データなし"
+    }
+   ],
+   "score": 74.2,
+   "mark": "△",
+   "rank": 4,
+   "actual": null
+  },
+  {
+   "horse_id": "2022106658",
+   "horse_name": "ベルジュロネット",
+   "fit": 0.141,
+   "fit_good": [
+    "距離帯 短距離(〜1400)",
+    "1400m",
+    "ダート"
+   ],
+   "fit_bad": [
+    "左回り"
+   ],
+   "horse_no": 11,
+   "frame": 7,
+   "jockey": "Ｍデムーロ",
+   "odds": null,
+   "popularity": null,
+   "main_style": "差し",
+   "raw": 7.3803,
+   "reasons": [
+    {
+     "label": "総合力",
+     "edge": 1.662,
+     "n": 11,
+     "contrib": 4.985,
+     "note": "",
+     "top3_rate": 0.727
+    },
+    {
+     "label": "近況(5走)",
+     "edge": 0.959,
+     "n": 5,
+     "contrib": 1.376,
+     "note": "直近ほど重い加重平均"
+    },
+    {
+     "label": "中5〜10週(36日)",
+     "edge": 1.644,
+     "n": 4,
+     "contrib": 0.986,
+     "note": "同じ間隔での過去成績",
+     "top3_rate": 1.0
+    },
+    {
+     "label": "ダート",
+     "edge": 0.24,
+     "n": 9,
+     "contrib": 0.873,
+     "note": "※自身の平均比",
+     "top3_rate": 0.778
+    },
+    {
+     "label": "展開:スローペース × 差し",
+     "edge": -0.5,
+     "n": 14,
+     "contrib": -0.4,
+     "note": "展開が向かない"
+    },
+    {
+     "label": "左回り",
+     "edge": -0.154,
+     "n": 3,
+     "contrib": -0.281,
+     "note": "※自身の平均比",
+     "top3_rate": 0.333
+    },
+    {
+     "label": "スローペース実績",
+     "edge": -0.286,
+     "n": 2,
+     "contrib": -0.257,
+     "note": "予測ペースでの過去成績",
+     "top3_rate": 0.0
+    },
+    {
+     "label": "4歳",
+     "edge": 0.358,
+     "n": 44,
+     "contrib": 0.179,
+     "note": "この条件での年齢の傾向",
+     "top3_rate": 0.341
+    },
+    {
+     "label": "枠7の有利不利",
+     "edge": -0.162,
+     "n": 88,
+     "contrib": -0.04,
+     "note": "このコースでの枠傾向。44レースから。信頼度×0.35",
+     "top3_rate": 0.17
+    },
+    {
+     "label": "脚質:差し",
+     "edge": -0.117,
+     "n": 258,
+     "contrib": -0.033,
+     "note": "このコースでの脚質傾向。44レースから。信頼度×0.35",
+     "top3_rate": 0.186
+    },
+    {
+     "label": "牡馬",
+     "edge": -0.013,
+     "n": 167,
+     "contrib": -0.007,
+     "note": "この条件での性別の傾向",
+     "top3_rate": 0.21
+    },
+    {
+     "label": "距離帯 短距離(〜1400)",
+     "edge": 0.24,
+     "n": 9,
+     "contrib": 0.0,
+     "note": "※自身の平均比",
+     "top3_rate": 0.778
+    },
+    {
+     "label": "1400m",
+     "edge": 0.24,
+     "n": 9,
+     "contrib": 0.0,
+     "note": "※自身の平均比",
+     "top3_rate": 0.778
+    },
+    {
+     "label": "馬場-",
+     "edge": null,
+     "n": 0,
+     "contrib": 0.0,
+     "note": "データなし"
+    },
+    {
+     "label": "中京",
+     "edge": null,
+     "n": 0,
+     "contrib": 0.0,
+     "note": "データなし"
+    },
+    {
+     "label": "G3実績",
+     "edge": null,
+     "n": 0,
+     "contrib": 0.0,
+     "note": "データなし"
+    },
+    {
+     "label": "Ｍデムーロ騎乗",
+     "edge": null,
+     "n": 0,
+     "contrib": 0.0,
+     "note": "データなし"
+    },
+    {
+     "label": "東海Ｓ実績",
+     "edge": null,
+     "n": 0,
+     "contrib": 0.0,
+     "note": "データなし"
+    }
+   ],
+   "score": 73.5,
+   "mark": "☆",
+   "rank": 5,
+   "actual": null
+  },
+  {
+   "horse_id": "2022103264",
+   "horse_name": "メイショウハチロー",
+   "fit": 0.213,
+   "fit_good": [
+    "距離帯 短距離(〜1400)",
+    "1400m",
+    "ダート",
+    "左回り"
+   ],
+   "fit_bad": [],
+   "horse_no": 13,
+   "frame": 8,
+   "jockey": "団野",
+   "odds": null,
+   "popularity": null,
+   "main_style": "差し",
+   "raw": 7.1045,
+   "reasons": [
+    {
+     "label": "総合力",
+     "edge": 1.505,
+     "n": 12,
+     "contrib": 4.515,
+     "note": "",
+     "top3_rate": 0.667
+    },
+    {
+     "label": "近況(5走)",
+     "edge": 0.971,
+     "n": 5,
+     "contrib": 1.412,
+     "note": "直近ほど重い加重平均"
+    },
+    {
+     "label": "ダート",
+     "edge": 0.177,
+     "n": 12,
+     "contrib": 0.643,
+     "note": "※自身の平均比",
+     "top3_rate": 0.667
+    },
+    {
+     "label": "展開:スローペース × 差し",
+     "edge": -0.5,
+     "n": 14,
+     "contrib": -0.4,
+     "note": "展開が向かない"
+    },
+    {
+     "label": "左回り",
+     "edge": 0.209,
+     "n": 10,
+     "contrib": 0.38,
+     "note": "※自身の平均比",
+     "top3_rate": 0.7
+    },
+    {
+     "label": "中5〜10週(56日)",
+     "edge": 0.6,
+     "n": 4,
+     "contrib": 0.36,
+     "note": "同じ間隔での過去成績",
+     "top3_rate": 0.5
+    },
+    {
+     "label": "中京",
+     "edge": 0.063,
+     "n": 5,
+     "contrib": 0.244,
+     "note": "※自身の平均比",
+     "top3_rate": 0.6
+    },
+    {
+     "label": "4歳",
+     "edge": 0.358,
+     "n": 44,
+     "contrib": 0.179,
+     "note": "この条件での年齢の傾向",
+     "top3_rate": 0.341
+    },
+    {
+     "label": "スローペース実績",
+     "edge": -0.167,
+     "n": 1,
+     "contrib": -0.15,
+     "note": "予測ペースでの過去成績",
+     "top3_rate": 0.0
+    },
+    {
+     "label": "枠8の有利不利",
+     "edge": -0.154,
+     "n": 87,
+     "contrib": -0.038,
+     "note": "このコースでの枠傾向。44レースから。信頼度×0.35",
+     "top3_rate": 0.172
+    },
+    {
+     "label": "脚質:差し",
+     "edge": -0.117,
+     "n": 258,
+     "contrib": -0.033,
+     "note": "このコースでの脚質傾向。44レースから。信頼度×0.35",
+     "top3_rate": 0.186
+    },
+    {
+     "label": "牡馬",
+     "edge": -0.013,
+     "n": 167,
+     "contrib": -0.007,
+     "note": "この条件での性別の傾向",
+     "top3_rate": 0.21
+    },
+    {
+     "label": "距離帯 短距離(〜1400)",
+     "edge": 0.307,
+     "n": 6,
+     "contrib": 0.0,
+     "note": "※自身の平均比",
+     "top3_rate": 0.833
+    },
+    {
+     "label": "1400m",
+     "edge": 0.307,
+     "n": 6,
+     "contrib": 0.0,
+     "note": "※自身の平均比",
+     "top3_rate": 0.833
+    },
+    {
+     "label": "馬場-",
+     "edge": null,
+     "n": 0,
+     "contrib": 0.0,
+     "note": "データなし"
+    },
+    {
+     "label": "G3実績",
+     "edge": null,
+     "n": 0,
+     "contrib": 0.0,
+     "note": "データなし"
+    },
+    {
+     "label": "団野騎乗",
+     "edge": null,
+     "n": 0,
+     "contrib": 0.0,
+     "note": "データなし"
+    },
+    {
+     "label": "東海Ｓ実績",
+     "edge": null,
+     "n": 0,
+     "contrib": 0.0,
+     "note": "データなし"
+    }
+   ],
+   "score": 72.0,
+   "mark": "",
+   "rank": 6,
+   "actual": null
+  },
+  {
+   "horse_id": "2022103622",
+   "horse_name": "マテンロウコマンド",
+   "fit": 0.19,
+   "fit_good": [
+    "距離帯 短距離(〜1400)",
+    "1400m",
+    "ダート",
+    "左回り",
+    "中京"
+   ],
+   "fit_bad": [
+    "G3実績"
+   ],
+   "horse_no": 12,
+   "frame": 7,
+   "jockey": "松山",
+   "odds": null,
+   "popularity": null,
+   "main_style": "先行",
+   "raw": 6.586,
+   "reasons": [
+    {
+     "label": "総合力",
+     "edge": 1.035,
+     "n": 9,
+     "contrib": 3.105,
+     "note": "",
+     "top3_rate": 0.556
+    },
+    {
+     "label": "中京",
+     "edge": 0.374,
+     "n": 2,
+     "contrib": 1.458,
+     "note": "※自身の平均比",
+     "top3_rate": 1.0
+    },
+    {
+     "label": "ダート",
+     "edge": 0.273,
+     "n": 8,
+     "contrib": 0.992,
+     "note": "※自身の平均比",
+     "top3_rate": 0.625
+    },
+    {
+     "label": "G3実績",
+     "edge": -0.286,
+     "n": 2,
+     "contrib": -0.817,
+     "note": "※自身の平均比",
+     "top3_rate": 0.0
+    },
+    {
+     "label": "近況(5走)",
+     "edge": 0.67,
+     "n": 5,
+     "contrib": 0.509,
+     "note": "直近ほど重い加重平均"
+    },
+    {
+     "label": "展開:スローペース × 先行",
+     "edge": 0.5,
+     "n": 14,
+     "contrib": 0.4,
+     "note": "展開が向く"
+    },
+    {
+     "label": "長期休養明け(6ヶ月〜)(175日)",
+     "edge": 0.616,
+     "n": 1,
+     "contrib": 0.37,
+     "note": "同じ間隔での過去成績",
+     "top3_rate": 1.0
+    },
+    {
+     "label": "左回り",
+     "edge": 0.193,
+     "n": 5,
+     "contrib": 0.35,
+     "note": "※自身の平均比",
+     "top3_rate": 0.6
+    },
+    {
+     "label": "4歳",
+     "edge": 0.358,
+     "n": 44,
+     "contrib": 0.179,
+     "note": "この条件での年齢の傾向",
+     "top3_rate": 0.341
+    },
+    {
+     "label": "スローペース実績",
+     "edge": -0.167,
+     "n": 1,
+     "contrib": -0.15,
+     "note": "予測ペースでの過去成績",
+     "top3_rate": 0.0
+    },
+    {
+     "label": "脚質:先行",
+     "edge": 0.375,
+     "n": 162,
+     "contrib": 0.106,
+     "note": "このコースでの脚質傾向。44レースから。信頼度×0.35",
+     "top3_rate": 0.302
+    },
+    {
+     "label": "産駒:Drefong(米) × ダート",
+     "edge": 0.187,
+     "n": 300,
+     "contrib": 0.045,
+     "note": "産駒の芝ダート適性。自身9戦なので血統の重み×0.40",
+     "top3_rate": 0.463
+    },
+    {
+     "label": "枠7の有利不利",
+     "edge": -0.162,
+     "n": 88,
+     "contrib": -0.04,
+     "note": "このコースでの枠傾向。44レースから。信頼度×0.35",
+     "top3_rate": 0.17
+    },
+    {
+     "label": "母父:Ghostzapper × ダート",
+     "edge": 0.176,
+     "n": 327,
+     "contrib": 0.028,
+     "note": "産駒の芝ダート適性。自身9戦なので血統の重み×0.40",
+     "top3_rate": 0.459
+    },
+    {
+     "label": "産駒:Drefong(米)の強さ",
+     "edge": 0.125,
+     "n": 611,
+     "contrib": 0.025,
+     "note": "産駒全体の成績。自身9戦なので血統の重み×0.40",
+     "top3_rate": 0.437
+    },
+    {
+     "label": "産駒:Drefong(米) × 短距離(〜1400)",
+     "edge": 0.084,
+     "n": 237,
+     "contrib": 0.02,
+     "note": "産駒の距離適性。自身9戦なので血統の重み×0.40",
+     "top3_rate": 0.422
+    },
+    {
+     "label": "母父:Ghostzapper × 短距離(〜1400)",
+     "edge": 0.073,
+     "n": 242,
+     "contrib": 0.012,
+     "note": "産駒の距離適性。自身9戦なので血統の重み×0.40",
+     "top3_rate": 0.417
+    },
+    {
+     "label": "牡馬",
+     "edge": -0.013,
+     "n": 167,
+     "contrib": -0.007,
+     "note": "この条件での性別の傾向",
+     "top3_rate": 0.21
+    },
+    {
+     "label": "距離帯 短距離(〜1400)",
+     "edge": 0.294,
+     "n": 6,
+     "contrib": 0.0,
+     "note": "※自身の平均比",
+     "top3_rate": 0.667
+    },
+    {
+     "label": "1400m",
+     "edge": 0.294,
+     "n": 6,
+     "contrib": 0.0,
+     "note": "※自身の平均比",
+     "top3_rate": 0.667
+    },
+    {
+     "label": "馬場-",
+     "edge": null,
+     "n": 0,
+     "contrib": 0.0,
+     "note": "データなし"
+    },
+    {
+     "label": "松山騎乗",
+     "edge": null,
+     "n": 0,
+     "contrib": 0.0,
+     "note": "データなし"
+    },
+    {
+     "label": "東海Ｓ実績",
+     "edge": null,
+     "n": 0,
+     "contrib": 0.0,
+     "note": "データなし"
+    },
+    {
+     "label": "母父:Ghostzapperの強さ",
+     "edge": 0.12,
+     "n": 639,
+     "contrib": 0.0,
+     "note": "産駒全体の成績。自身9戦なので血統の重み×0.40",
+     "top3_rate": 0.435
+    }
+   ],
+   "score": 69.0,
+   "mark": "",
+   "rank": 7,
+   "actual": null
+  },
+  {
+   "horse_id": "2017101560",
+   "horse_name": "ケイアイドリー",
+   "fit": 0.036,
+   "fit_good": [
+    "1400m"
+   ],
+   "fit_bad": [
+    "左回り",
+    "G3実績"
+   ],
+   "horse_no": 2,
+   "frame": 2,
+   "jockey": "藤懸",
+   "odds": null,
+   "popularity": null,
+   "main_style": "先行",
+   "raw": 6.5075,
+   "reasons": [
+    {
+     "label": "総合力",
+     "edge": 1.722,
+     "n": 21,
+     "contrib": 5.166,
+     "note": "",
+     "top3_rate": 0.667
+    },
+    {
+     "label": "中5〜10週(49日)",
+     "edge": 0.983,
+     "n": 7,
+     "contrib": 0.59,
+     "note": "同じ間隔での過去成績",
+     "top3_rate": 0.571
+    },
+    {
+     "label": "G3実績",
+     "edge": -0.167,
+     "n": 1,
+     "contrib": -0.477,
+     "note": "※自身の平均比",
+     "top3_rate": 0.0
+    },
+    {
+     "label": "中京",
+     "edge": 0.121,
+     "n": 1,
+     "contrib": 0.472,
+     "note": "※自身の平均比",
+     "top3_rate": 1.0
+    },
+    {
+     "label": "ダート",
+     "edge": 0.122,
+     "n": 21,
+     "contrib": 0.443,
+     "note": "※自身の平均比",
+     "top3_rate": 0.667
+    },
+    {
+     "label": "展開:スローペース × 先行",
+     "edge": 0.5,
+     "n": 14,
+     "contrib": 0.4,
+     "note": "展開が向く"
+    },
+    {
+     "label": "左回り",
+     "edge": -0.159,
+     "n": 3,
+     "contrib": -0.29,
+     "note": "※自身の平均比",
+     "top3_rate": 0.333
+    },
+    {
+     "label": "近況(5走)",
+     "edge": 0.546,
+     "n": 5,
+     "contrib": 0.139,
+     "note": "直近ほど重い加重平均"
+    },
+    {
+     "label": "脚質:先行",
+     "edge": 0.375,
+     "n": 162,
+     "contrib": 0.106,
+     "note": "このコースでの脚質傾向。44レースから。信頼度×0.35",
+     "top3_rate": 0.302
+    },
+    {
+     "label": "枠2の有利不利",
+     "edge": -0.228,
+     "n": 85,
+     "contrib": -0.057,
+     "note": "このコースでの枠傾向。44レースから。信頼度×0.35",
+     "top3_rate": 0.153
+    },
+    {
+     "label": "9歳",
+     "edge": -0.063,
+     "n": 2,
+     "contrib": -0.031,
+     "note": "この条件での年齢の傾向",
+     "top3_rate": 0.0
+    },
+    {
+     "label": "産駒:エスポワールシチー × ダート",
+     "edge": 0.181,
+     "n": 107,
+     "contrib": 0.024,
+     "note": "産駒の芝ダート適性。自身21戦なので血統の重み×0.22",
+     "top3_rate": 0.467
+    },
+    {
+     "label": "産駒:エスポワールシチーの強さ",
+     "edge": 0.137,
+     "n": 114,
+     "contrib": 0.015,
+     "note": "産駒全体の成績。自身21戦なので血統の重み×0.22",
+     "top3_rate": 0.447
+    },
+    {
+     "label": "産駒:エスポワールシチー × 短距離(〜1400)",
+     "edge": 0.062,
+     "n": 21,
+     "contrib": 0.008,
+     "note": "産駒の距離適性。自身21戦なので血統の重み×0.22",
+     "top3_rate": 0.429
+    },
+    {
+     "label": "母父:Brian's Time(米) × ダート",
+     "edge": 0.089,
+     "n": 122,
+     "contrib": 0.008,
+     "note": "産駒の芝ダート適性。自身21戦なので血統の重み×0.22",
+     "top3_rate": 0.426
+    },
+    {
+     "label": "牡馬",
+     "edge": -0.013,
+     "n": 167,
+     "contrib": -0.007,
+     "note": "この条件での性別の傾向",
+     "top3_rate": 0.21
+    },
+    {
+     "label": "母父:Brian's Time(米) × 短距離(〜1400)",
+     "edge": -0.034,
+     "n": 62,
+     "contrib": -0.003,
+     "note": "産駒の距離適性。自身21戦なので血統の重み×0.22",
+     "top3_rate": 0.371
+    },
+    {
+     "label": "距離帯 短距離(〜1400)",
+     "edge": 0.081,
+     "n": 14,
+     "contrib": 0.0,
+     "note": "※自身の平均比",
+     "top3_rate": 0.643
+    },
+    {
+     "label": "1400m",
+     "edge": 0.22,
+     "n": 9,
+     "contrib": 0.0,
+     "note": "※自身の平均比",
+     "top3_rate": 0.778
+    },
+    {
+     "label": "馬場-",
+     "edge": null,
+     "n": 0,
+     "contrib": 0.0,
+     "note": "データなし"
+    },
+    {
+     "label": "藤懸騎乗",
+     "edge": null,
+     "n": 0,
+     "contrib": 0.0,
+     "note": "データなし"
+    },
+    {
+     "label": "東海Ｓ実績",
+     "edge": null,
+     "n": 0,
+     "contrib": 0.0,
+     "note": "データなし"
+    },
+    {
+     "label": "スローペース実績",
+     "edge": null,
+     "n": 0,
+     "contrib": 0.0,
+     "note": "データなし"
+    },
+    {
+     "label": "母父:Brian's Time(米)の強さ",
+     "edge": 0.005,
+     "n": 244,
+     "contrib": 0.0,
+     "note": "産駒全体の成績。自身21戦なので血統の重み×0.22",
+     "top3_rate": 0.389
+    }
+   ],
+   "score": 68.6,
+   "mark": "",
+   "rank": 8,
+   "actual": null
+  },
+  {
+   "horse_id": "2019103879",
+   "horse_name": "バトルクライ",
+   "fit": 0.189,
+   "fit_good": [
+    "ダート",
+    "左回り",
+    "中京",
+    "G3実績"
+   ],
+   "fit_bad": [],
+   "horse_no": 10,
+   "frame": 6,
+   "jockey": "原",
+   "odds": null,
+   "popularity": null,
+   "main_style": "差し",
+   "raw": 5.5373,
+   "reasons": [
+    {
+     "label": "総合力",
+     "edge": 0.943,
+     "n": 29,
+     "contrib": 2.83,
+     "note": "",
+     "top3_rate": 0.448
+    },
+    {
+     "label": "G3実績",
+     "edge": 0.361,
+     "n": 4,
+     "contrib": 1.034,
+     "note": "※自身の平均比",
+     "top3_rate": 0.75
+    },
+    {
+     "label": "中京",
+     "edge": 0.229,
+     "n": 3,
+     "contrib": 0.895,
+     "note": "※自身の平均比",
+     "top3_rate": 0.667
+    },
+    {
+     "label": "ダート",
+     "edge": 0.214,
+     "n": 25,
+     "contrib": 0.78,
+     "note": "※自身の平均比",
+     "top3_rate": 0.52
+    },
+    {
+     "label": "展開:スローペース × 差し",
+     "edge": -0.5,
+     "n": 14,
+     "contrib": -0.4,
+     "note": "展開が向かない"
+    },
+    {
+     "label": "左回り",
+     "edge": 0.216,
+     "n": 19,
+     "contrib": 0.392,
+     "note": "※自身の平均比",
+     "top3_rate": 0.526
+    },
+    {
+     "label": "スローペース実績",
+     "edge": -0.375,
+     "n": 3,
+     "contrib": -0.337,
+     "note": "予測ペースでの過去成績",
+     "top3_rate": 0.0
+    },
+    {
+     "label": "休み明け(3〜6ヶ月)(91日)",
+     "edge": 0.44,
+     "n": 5,
+     "contrib": 0.264,
+     "note": "同じ間隔での過去成績",
+     "top3_rate": 0.4
+    },
+    {
+     "label": "近況(5走)",
+     "edge": 0.546,
+     "n": 5,
+     "contrib": 0.138,
+     "note": "直近ほど重い加重平均"
+    },
+    {
+     "label": "7歳",
+     "edge": -0.168,
+     "n": 23,
+     "contrib": -0.084,
+     "note": "この条件での年齢の傾向",
+     "top3_rate": 0.13
+    },
+    {
+     "label": "枠6の有利不利",
+     "edge": 0.164,
+     "n": 86,
+     "contrib": 0.041,
+     "note": "このコースでの枠傾向。44レースから。信頼度×0.35",
+     "top3_rate": 0.256
+    },
+    {
+     "label": "脚質:差し",
+     "edge": -0.117,
+     "n": 258,
+     "contrib": -0.033,
+     "note": "このコースでの脚質傾向。44レースから。信頼度×0.35",
+     "top3_rate": 0.186
+    },
+    {
+     "label": "産駒:イスラボニータ × 短距離(〜1400)",
+     "edge": 0.101,
+     "n": 191,
+     "contrib": 0.01,
+     "note": "産駒の距離適性。自身29戦なので血統の重み×0.17",
+     "top3_rate": 0.429
+    },
+    {
+     "label": "母父:Cozzene × 短距離(〜1400)",
+     "edge": 0.101,
+     "n": 191,
+     "contrib": 0.007,
+     "note": "産駒の距離適性。自身29戦なので血統の重み×0.17",
+     "top3_rate": 0.429
+    },
+    {
+     "label": "牡馬",
+     "edge": -0.013,
+     "n": 167,
+     "contrib": -0.007,
+     "note": "この条件での性別の傾向",
+     "top3_rate": 0.21
+    },
+    {
+     "label": "産駒:イスラボニータの強さ",
+     "edge": 0.065,
+     "n": 525,
+     "contrib": 0.006,
+     "note": "産駒全体の成績。自身29戦なので血統の重み×0.17",
+     "top3_rate": 0.413
+    },
+    {
+     "label": "産駒:イスラボニータ × ダート",
+     "edge": 0.017,
+     "n": 81,
+     "contrib": 0.002,
+     "note": "産駒の芝ダート適性。自身29戦なので血統の重み×0.17",
+     "top3_rate": 0.395
+    },
+    {
+     "label": "母父:Cozzene × ダート",
+     "edge": 0.017,
+     "n": 81,
+     "contrib": 0.001,
+     "note": "産駒の芝ダート適性。自身29戦なので血統の重み×0.17",
+     "top3_rate": 0.395
+    },
+    {
+     "label": "距離帯 短距離(〜1400)",
+     "edge": 0.106,
+     "n": 17,
+     "contrib": 0.0,
+     "note": "※自身の平均比",
+     "top3_rate": 0.471
+    },
+    {
+     "label": "1400m",
+     "edge": 0.005,
+     "n": 12,
+     "contrib": 0.0,
+     "note": "※自身の平均比",
+     "top3_rate": 0.417
+    },
+    {
+     "label": "馬場-",
+     "edge": null,
+     "n": 0,
+     "contrib": 0.0,
+     "note": "データなし"
+    },
+    {
+     "label": "原騎乗",
+     "edge": null,
+     "n": 0,
+     "contrib": 0.0,
+     "note": "データなし"
+    },
+    {
+     "label": "東海Ｓ実績",
+     "edge": null,
+     "n": 0,
+     "contrib": 0.0,
+     "note": "データなし"
+    },
+    {
+     "label": "母父:Cozzeneの強さ",
+     "edge": 0.065,
+     "n": 525,
+     "contrib": 0.0,
+     "note": "産駒全体の成績。自身29戦なので血統の重み×0.17",
+     "top3_rate": 0.413
+    }
+   ],
+   "score": 63.0,
+   "mark": "",
+   "rank": 9,
+   "actual": null
+  },
+  {
+   "horse_id": "2020103876",
+   "horse_name": "モンドプリューム",
+   "fit": 0.104,
+   "fit_good": [
+    "距離帯 短距離(〜1400)",
+    "左回り",
+    "中京"
+   ],
+   "fit_bad": [
+    "1400m"
+   ],
+   "horse_no": 14,
+   "frame": 8,
+   "jockey": "武藤",
+   "odds": null,
+   "popularity": null,
+   "main_style": "差し",
+   "raw": 5.2434,
+   "reasons": [
+    {
+     "label": "総合力",
+     "edge": 0.943,
+     "n": 29,
+     "contrib": 2.83,
+     "note": "",
+     "top3_rate": 0.448
+    },
+    {
+     "label": "中京",
+     "edge": 0.236,
+     "n": 1,
+     "contrib": 0.921,
+     "note": "※自身の平均比",
+     "top3_rate": 1.0
+    },
+    {
+     "label": "中5〜10週(36日)",
+     "edge": 1.192,
+     "n": 8,
+     "contrib": 0.715,
+     "note": "同じ間隔での過去成績",
+     "top3_rate": 0.625
+    },
+    {
+     "label": "ダート",
+     "edge": 0.134,
+     "n": 25,
+     "contrib": 0.487,
+     "note": "※自身の平均比",
+     "top3_rate": 0.48
+    },
+    {
+     "label": "展開:スローペース × 差し",
+     "edge": -0.5,
+     "n": 14,
+     "contrib": -0.4,
+     "note": "展開が向かない"
+    },
+    {
+     "label": "左回り",
+     "edge": 0.219,
+     "n": 11,
+     "contrib": 0.399,
+     "note": "※自身の平均比",
+     "top3_rate": 0.545
+    },
+    {
+     "label": "スローペース実績",
+     "edge": 0.44,
+     "n": 5,
+     "contrib": 0.396,
+     "note": "予測ペースでの過去成績",
+     "top3_rate": 0.4
+    },
+    {
+     "label": "6歳",
+     "edge": -0.341,
+     "n": 44,
+     "contrib": -0.17,
+     "note": "この条件での年齢の傾向",
+     "top3_rate": 0.091
+    },
+    {
+     "label": "近況(5走)",
+     "edge": 0.548,
+     "n": 5,
+     "contrib": 0.145,
+     "note": "直近ほど重い加重平均"
+    },
+    {
+     "label": "枠8の有利不利",
+     "edge": -0.154,
+     "n": 87,
+     "contrib": -0.038,
+     "note": "このコースでの枠傾向。44レースから。信頼度×0.35",
+     "top3_rate": 0.172
+    },
+    {
+     "label": "脚質:差し",
+     "edge": -0.117,
+     "n": 258,
+     "contrib": -0.033,
+     "note": "このコースでの脚質傾向。44レースから。信頼度×0.35",
+     "top3_rate": 0.186
+    },
+    {
+     "label": "牡馬",
+     "edge": -0.013,
+     "n": 167,
+     "contrib": -0.007,
+     "note": "この条件での性別の傾向",
+     "top3_rate": 0.21
+    },
+    {
+     "label": "距離帯 短距離(〜1400)",
+     "edge": 0.217,
+     "n": 15,
+     "contrib": 0.0,
+     "note": "※自身の平均比",
+     "top3_rate": 0.533
+    },
+    {
+     "label": "1400m",
+     "edge": -0.286,
+     "n": 2,
+     "contrib": -0.0,
+     "note": "※自身の平均比",
+     "top3_rate": 0.0
+    },
+    {
+     "label": "馬場-",
+     "edge": null,
+     "n": 0,
+     "contrib": 0.0,
+     "note": "データなし"
+    },
+    {
+     "label": "G3実績",
+     "edge": null,
+     "n": 0,
+     "contrib": 0.0,
+     "note": "データなし"
+    },
+    {
+     "label": "武藤騎乗",
+     "edge": null,
+     "n": 0,
+     "contrib": 0.0,
+     "note": "データなし"
+    },
+    {
+     "label": "東海Ｓ実績",
+     "edge": null,
+     "n": 0,
+     "contrib": 0.0,
+     "note": "データなし"
+    }
+   ],
+   "score": 61.4,
+   "mark": "",
+   "rank": 10,
+   "actual": null
+  },
+  {
+   "horse_id": "2020106062",
+   "horse_name": "ジュンウィンダム",
+   "fit": 0.209,
+   "fit_good": [
+    "1400m",
+    "左回り",
+    "中京"
+   ],
+   "fit_bad": [],
+   "horse_no": 3,
+   "frame": 2,
+   "jockey": "国分優",
+   "odds": null,
+   "popularity": null,
+   "main_style": "差し",
+   "raw": 4.2461,
+   "reasons": [
+    {
+     "label": "総合力",
+     "edge": 0.925,
+     "n": 22,
+     "contrib": 2.776,
+     "note": "",
+     "top3_rate": 0.455
+    },
+    {
+     "label": "中京",
+     "edge": 0.412,
+     "n": 2,
+     "contrib": 1.605,
+     "note": "※自身の平均比",
+     "top3_rate": 1.0
+    },
+    {
+     "label": "左回り",
+     "edge": 0.232,
+     "n": 5,
+     "contrib": 0.422,
+     "note": "※自身の平均比",
+     "top3_rate": 0.6
+    },
+    {
+     "label": "展開:スローペース × 差し",
+     "edge": -0.5,
+     "n": 14,
+     "contrib": -0.4,
+     "note": "展開が向かない"
+    },
+    {
+     "label": "近況(5走)",
+     "edge": 0.388,
+     "n": 5,
+     "contrib": -0.337,
+     "note": "直近ほど重い加重平均"
+    },
+    {
+     "label": "ダート",
+     "edge": 0.079,
+     "n": 20,
+     "contrib": 0.286,
+     "note": "※自身の平均比",
+     "top3_rate": 0.45
+    },
+    {
+     "label": "中5〜10週(49日)",
+     "edge": 0.309,
+     "n": 6,
+     "contrib": 0.185,
+     "note": "同じ間隔での過去成績",
+     "top3_rate": 0.333
+    },
+    {
+     "label": "6歳",
+     "edge": -0.341,
+     "n": 44,
+     "contrib": -0.17,
+     "note": "この条件での年齢の傾向",
+     "top3_rate": 0.091
+    },
+    {
+     "label": "枠2の有利不利",
+     "edge": -0.228,
+     "n": 85,
+     "contrib": -0.057,
+     "note": "このコースでの枠傾向。44レースから。信頼度×0.35",
+     "top3_rate": 0.153
+    },
+    {
+     "label": "脚質:差し",
+     "edge": -0.117,
+     "n": 258,
+     "contrib": -0.033,
+     "note": "このコースでの脚質傾向。44レースから。信頼度×0.35",
+     "top3_rate": 0.186
+    },
+    {
+     "label": "牝馬",
+     "edge": -0.062,
+     "n": 22,
+     "contrib": -0.031,
+     "note": "この条件での性別の傾向",
+     "top3_rate": 0.182
+    },
+    {
+     "label": "距離帯 短距離(〜1400)",
+     "edge": 0.089,
+     "n": 22,
+     "contrib": 0.0,
+     "note": "※自身の平均比",
+     "top3_rate": 0.455
+    },
+    {
+     "label": "1400m",
+     "edge": 0.232,
+     "n": 5,
+     "contrib": 0.0,
+     "note": "※自身の平均比",
+     "top3_rate": 0.6
+    },
+    {
+     "label": "馬場-",
+     "edge": null,
+     "n": 0,
+     "contrib": 0.0,
+     "note": "データなし"
+    },
+    {
+     "label": "G3実績",
+     "edge": null,
+     "n": 0,
+     "contrib": 0.0,
+     "note": "データなし"
+    },
+    {
+     "label": "国分優騎乗",
+     "edge": null,
+     "n": 0,
+     "contrib": 0.0,
+     "note": "データなし"
+    },
+    {
+     "label": "東海Ｓ実績",
+     "edge": null,
+     "n": 0,
+     "contrib": 0.0,
+     "note": "データなし"
+    },
+    {
+     "label": "スローペース実績",
+     "edge": null,
+     "n": 0,
+     "contrib": 0.0,
+     "note": "データなし"
+    }
+   ],
+   "score": 55.7,
+   "mark": "",
+   "rank": 11,
+   "actual": null
+  },
+  {
+   "horse_id": "2021110148",
+   "horse_name": "ノーブルロジャー",
+   "fit": 0.008,
+   "fit_good": [
+    "G3実績"
+   ],
+   "fit_bad": [
+    "中京"
+   ],
+   "horse_no": 8,
+   "frame": 5,
+   "jockey": "吉村",
+   "odds": null,
+   "popularity": null,
+   "main_style": "差し",
+   "raw": 3.6485,
+   "reasons": [
+    {
+     "label": "総合力",
+     "edge": 0.579,
+     "n": 19,
+     "contrib": 1.736,
+     "note": "",
+     "top3_rate": 0.368
+    },
+    {
+     "label": "G3実績",
+     "edge": 0.369,
+     "n": 3,
+     "contrib": 1.055,
+     "note": "※自身の平均比",
+     "top3_rate": 0.667
+    },
+    {
+     "label": "近況(5走)",
+     "edge": 0.755,
+     "n": 5,
+     "contrib": 0.766,
+     "note": "直近ほど重い加重平均"
+    },
+    {
+     "label": "スローペース実績",
+     "edge": 0.8,
+     "n": 3,
+     "contrib": 0.72,
+     "note": "予測ペースでの過去成績",
+     "top3_rate": 0.667
+    },
+    {
+     "label": "中京",
+     "edge": -0.167,
+     "n": 1,
+     "contrib": -0.65,
+     "note": "※自身の平均比",
+     "top3_rate": 0.0
+    },
+    {
+     "label": "中5〜10週(36日)",
+     "edge": 0.699,
+     "n": 9,
+     "contrib": 0.42,
+     "note": "同じ間隔での過去成績",
+     "top3_rate": 0.444
+    },
+    {
+     "label": "展開:スローペース × 差し",
+     "edge": -0.5,
+     "n": 14,
+     "contrib": -0.4,
+     "note": "展開が向かない"
+    },
+    {
+     "label": "5歳",
+     "edge": -0.176,
+     "n": 52,
+     "contrib": -0.088,
+     "note": "この条件での年齢の傾向",
+     "top3_rate": 0.154
+    },
+    {
+     "label": "産駒:パレスマリスの強さ",
+     "edge": 0.427,
+     "n": 48,
+     "contrib": 0.051,
+     "note": "産駒全体の成績。自身19戦なので血統の重み×0.24",
+     "top3_rate": 0.604
+    },
+    {
+     "label": "産駒:パレスマリス × ダート",
+     "edge": 0.31,
+     "n": 26,
+     "contrib": 0.045,
+     "note": "産駒の芝ダート適性。自身19戦なので血統の重み×0.24",
+     "top3_rate": 0.577
+    },
+    {
+     "label": "産駒:パレスマリス × 短距離(〜1400)",
+     "edge": 0.249,
+     "n": 28,
+     "contrib": 0.036,
+     "note": "産駒の距離適性。自身19戦なので血統の重み×0.24",
+     "top3_rate": 0.536
+    },
+    {
+     "label": "脚質:差し",
+     "edge": -0.117,
+     "n": 258,
+     "contrib": -0.033,
+     "note": "このコースでの脚質傾向。44レースから。信頼度×0.35",
+     "top3_rate": 0.186
+    },
+    {
+     "label": "枠5の有利不利",
+     "edge": -0.119,
+     "n": 88,
+     "contrib": -0.03,
+     "note": "このコースでの枠傾向。44レースから。信頼度×0.35",
+     "top3_rate": 0.182
+    },
+    {
+     "label": "母父:Royal Anthem × ダート",
+     "edge": 0.31,
+     "n": 26,
+     "contrib": 0.03,
+     "note": "産駒の芝ダート適性。自身19戦なので血統の重み×0.24",
+     "top3_rate": 0.577
+    },
+    {
+     "label": "母父:Royal Anthem × 短距離(〜1400)",
+     "edge": 0.249,
+     "n": 28,
+     "contrib": 0.024,
+     "note": "産駒の距離適性。自身19戦なので血統の重み×0.24",
+     "top3_rate": 0.536
+    },
+    {
+     "label": "ダート",
+     "edge": -0.005,
+     "n": 9,
+     "contrib": -0.019,
+     "note": "※自身の平均比",
+     "top3_rate": 0.333
+    },
+    {
+     "label": "左回り",
+     "edge": -0.004,
+     "n": 6,
+     "contrib": -0.008,
+     "note": "※自身の平均比",
+     "top3_rate": 0.333
+    },
+    {
+     "label": "牡馬",
+     "edge": -0.013,
+     "n": 167,
+     "contrib": -0.007,
+     "note": "この条件での性別の傾向",
+     "top3_rate": 0.21
+    },
+    {
+     "label": "距離帯 短距離(〜1400)",
+     "edge": -0.071,
+     "n": 10,
+     "contrib": -0.0,
+     "note": "※自身の平均比",
+     "top3_rate": 0.3
+    },
+    {
+     "label": "1400m",
+     "edge": -0.071,
+     "n": 10,
+     "contrib": -0.0,
+     "note": "※自身の平均比",
+     "top3_rate": 0.3
+    },
+    {
+     "label": "馬場-",
+     "edge": null,
+     "n": 0,
+     "contrib": 0.0,
+     "note": "データなし"
+    },
+    {
+     "label": "吉村騎乗",
+     "edge": null,
+     "n": 0,
+     "contrib": 0.0,
+     "note": "データなし"
+    },
+    {
+     "label": "東海Ｓ実績",
+     "edge": null,
+     "n": 0,
+     "contrib": 0.0,
+     "note": "データなし"
+    },
+    {
+     "label": "母父:Royal Anthemの強さ",
+     "edge": 0.427,
+     "n": 48,
+     "contrib": 0.0,
+     "note": "産駒全体の成績。自身19戦なので血統の重み×0.24",
+     "top3_rate": 0.604
+    }
+   ],
+   "score": 52.3,
+   "mark": "",
+   "rank": 12,
+   "actual": null
+  },
+  {
+   "horse_id": "2022102493",
+   "horse_name": "トリリオンボーイ",
+   "fit": 0.049,
+   "fit_good": [
+    "左回り"
+   ],
+   "fit_bad": [
+    "中京"
+   ],
+   "horse_no": 6,
+   "frame": 4,
+   "jockey": "中井",
+   "odds": null,
+   "popularity": null,
+   "main_style": "追込",
+   "raw": 1.3361,
+   "reasons": [
+    {
+     "label": "総合力",
+     "edge": 0.624,
+     "n": 27,
+     "contrib": 1.873,
+     "note": "",
+     "top3_rate": 0.37
+    },
+    {
+     "label": "中京",
+     "edge": -0.167,
+     "n": 1,
+     "contrib": -0.65,
+     "note": "※自身の平均比",
+     "top3_rate": 0.0
+    },
+    {
+     "label": "ダート",
+     "edge": 0.131,
+     "n": 25,
+     "contrib": 0.476,
+     "note": "※自身の平均比",
+     "top3_rate": 0.4
+    },
+    {
+     "label": "展開:スローペース × 追込",
+     "edge": -0.5,
+     "n": 14,
+     "contrib": -0.4,
+     "note": "展開が向かない"
+    },
+    {
+     "label": "近況(5走)",
+     "edge": 0.388,
+     "n": 5,
+     "contrib": -0.336,
+     "note": "直近ほど重い加重平均"
+    },
+    {
+     "label": "左回り",
+     "edge": 0.176,
+     "n": 14,
+     "contrib": 0.321,
+     "note": "※自身の平均比",
+     "top3_rate": 0.429
+    },
+    {
+     "label": "中5〜10週(70日)",
+     "edge": 0.44,
+     "n": 5,
+     "contrib": 0.264,
+     "note": "同じ間隔での過去成績",
+     "top3_rate": 0.4
+    },
+    {
+     "label": "脚質:追込",
+     "edge": -0.674,
+     "n": 229,
+     "contrib": -0.191,
+     "note": "このコースでの脚質傾向。44レースから。信頼度×0.35",
+     "top3_rate": 0.057
+    },
+    {
+     "label": "4歳",
+     "edge": 0.358,
+     "n": 44,
+     "contrib": 0.179,
+     "note": "この条件での年齢の傾向",
+     "top3_rate": 0.341
+    },
+    {
+     "label": "セ馬",
+     "edge": -0.318,
+     "n": 14,
+     "contrib": -0.159,
+     "note": "この条件での性別の傾向",
+     "top3_rate": 0.0
+    },
+    {
+     "label": "枠4の有利不利",
+     "edge": -0.162,
+     "n": 88,
+     "contrib": -0.04,
+     "note": "このコースでの枠傾向。44レースから。信頼度×0.35",
+     "top3_rate": 0.17
+    },
+    {
+     "label": "距離帯 短距離(〜1400)",
+     "edge": 0.131,
+     "n": 25,
+     "contrib": 0.0,
+     "note": "※自身の平均比",
+     "top3_rate": 0.4
+    },
+    {
+     "label": "1400m",
+     "edge": -0.025,
+     "n": 12,
+     "contrib": -0.0,
+     "note": "※自身の平均比",
+     "top3_rate": 0.333
+    },
+    {
+     "label": "馬場-",
+     "edge": null,
+     "n": 0,
+     "contrib": 0.0,
+     "note": "データなし"
+    },
+    {
+     "label": "G3実績",
+     "edge": null,
+     "n": 0,
+     "contrib": 0.0,
+     "note": "データなし"
+    },
+    {
+     "label": "中井騎乗",
+     "edge": null,
+     "n": 0,
+     "contrib": 0.0,
+     "note": "データなし"
+    },
+    {
+     "label": "東海Ｓ実績",
+     "edge": null,
+     "n": 0,
+     "contrib": 0.0,
+     "note": "データなし"
+    },
+    {
+     "label": "スローペース実績",
+     "edge": null,
+     "n": 0,
+     "contrib": 0.0,
+     "note": "データなし"
+    }
+   ],
+   "score": 39.2,
+   "mark": "",
+   "rank": 13,
+   "actual": null
+  },
+  {
+   "horse_id": "2022100140",
+   "horse_name": "ハッピーマン",
+   "fit": -0.002,
+   "fit_good": [
+    "距離帯 短距離(〜1400)"
+   ],
+   "fit_bad": [
+    "左回り",
+    "中京"
+   ],
+   "horse_no": 9,
+   "frame": 6,
+   "jockey": "幸",
+   "odds": null,
+   "popularity": null,
+   "main_style": "追込",
+   "raw": -0.2728,
+   "reasons": [
+    {
+     "label": "総合力",
+     "edge": 0.309,
+     "n": 6,
+     "contrib": 0.926,
+     "note": "",
+     "top3_rate": 0.333
+    },
+    {
+     "label": "左回り",
+     "edge": -0.375,
+     "n": 3,
+     "contrib": -0.683,
+     "note": "※自身の平均比",
+     "top3_rate": 0.0
+    },
+    {
+     "label": "中京",
+     "edge": -0.167,
+     "n": 1,
+     "contrib": -0.65,
+     "note": "※自身の平均比",
+     "top3_rate": 0.0
+    },
+    {
+     "label": "展開:スローペース × 追込",
+     "edge": -0.5,
+     "n": 14,
+     "contrib": -0.4,
+     "note": "展開が向かない"
+    },
+    {
+     "label": "ダート",
+     "edge": 0.107,
+     "n": 6,
+     "contrib": 0.39,
+     "note": "※自身の平均比",
+     "top3_rate": 0.333
+    },
+    {
+     "label": "脚質:追込",
+     "edge": -0.674,
+     "n": 229,
+     "contrib": -0.191,
+     "note": "このコースでの脚質傾向。44レースから。信頼度×0.35",
+     "top3_rate": 0.057
+    },
+    {
+     "label": "4歳",
+     "edge": 0.358,
+     "n": 44,
+     "contrib": 0.179,
+     "note": "この条件での年齢の傾向",
+     "top3_rate": 0.341
+    },
+    {
+     "label": "近況(5走)",
+     "edge": 0.469,
+     "n": 5,
+     "contrib": -0.093,
+     "note": "直近ほど重い加重平均"
+    },
+    {
+     "label": "産駒:ダノンレジェンド × ダート",
+     "edge": 0.251,
+     "n": 125,
+     "contrib": 0.075,
+     "note": "産駒の芝ダート適性。自身6戦なので血統の重み×0.50",
+     "top3_rate": 0.496
+    },
+    {
+     "label": "産駒:ダノンレジェンド × 短距離(〜1400)",
+     "edge": 0.241,
+     "n": 72,
+     "contrib": 0.072,
+     "note": "産駒の距離適性。自身6戦なので血統の重み×0.50",
+     "top3_rate": 0.5
+    },
+    {
+     "label": "産駒:ダノンレジェンドの強さ",
+     "edge": 0.218,
+     "n": 133,
+     "contrib": 0.054,
+     "note": "産駒全体の成績。自身6戦なので血統の重み×0.50",
+     "top3_rate": 0.481
+    },
+    {
+     "label": "枠6の有利不利",
+     "edge": 0.164,
+     "n": 86,
+     "contrib": 0.041,
+     "note": "このコースでの枠傾向。44レースから。信頼度×0.35",
+     "top3_rate": 0.256
+    },
+    {
+     "label": "母父:(米) × ダート",
+     "edge": 0.083,
+     "n": 1773,
+     "contrib": 0.017,
+     "note": "産駒の芝ダート適性。自身6戦なので血統の重み×0.50",
+     "top3_rate": 0.42
+    },
+    {
+     "label": "牡馬",
+     "edge": -0.013,
+     "n": 167,
+     "contrib": -0.007,
+     "note": "この条件での性別の傾向",
+     "top3_rate": 0.21
+    },
+    {
+     "label": "母父:(米) × 短距離(〜1400)",
+     "edge": -0.017,
+     "n": 2972,
+     "contrib": -0.003,
+     "note": "産駒の距離適性。自身6戦なので血統の重み×0.50",
+     "top3_rate": 0.381
+    },
+    {
+     "label": "距離帯 短距離(〜1400)",
+     "edge": 0.353,
+     "n": 4,
+     "contrib": 0.0,
+     "note": "※自身の平均比",
+     "top3_rate": 0.5
+    },
+    {
+     "label": "1400m",
+     "edge": 0.074,
+     "n": 3,
+     "contrib": 0.0,
+     "note": "※自身の平均比",
+     "top3_rate": 0.333
+    },
+    {
+     "label": "馬場-",
+     "edge": null,
+     "n": 0,
+     "contrib": 0.0,
+     "note": "データなし"
+    },
+    {
+     "label": "G3実績",
+     "edge": null,
+     "n": 0,
+     "contrib": 0.0,
+     "note": "データなし"
+    },
+    {
+     "label": "幸騎乗",
+     "edge": null,
+     "n": 0,
+     "contrib": 0.0,
+     "note": "データなし"
+    },
+    {
+     "label": "東海Ｓ実績",
+     "edge": null,
+     "n": 0,
+     "contrib": 0.0,
+     "note": "データなし"
+    },
+    {
+     "label": "スローペース実績",
+     "edge": null,
+     "n": 0,
+     "contrib": 0.0,
+     "note": "データなし"
+    },
+    {
+     "label": "母父:(米)の強さ",
+     "edge": 0.034,
+     "n": 7321,
+     "contrib": 0.0,
+     "note": "産駒全体の成績。自身6戦なので血統の重み×0.50",
+     "top3_rate": 0.4
+    },
+    {
+     "label": "中5〜10週(70日)",
+     "edge": null,
+     "n": 0,
+     "contrib": 0.0,
+     "note": "データなし"
+    }
+   ],
+   "score": 30.0,
+   "mark": "",
+   "rank": 14,
+   "actual": null
+  }
+ ],
+ "verdict": {
+  "chaos_score": 0.493,
+  "comment": "標準的。ヒモに中穴を1〜2頭。 (1番人気勝率 34% / 6番人気以下の勝率 14%)"
+ },
+ "draw_pending": true
+}

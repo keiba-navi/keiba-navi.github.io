@@ -72,7 +72,8 @@ function fillRaceSelect() {
   IDX.races.filter((r) => !grade || r.grade === grade).forEach((r) => {
     const o = el("option");
     o.value = r.race_id;
-    o.textContent = `${r.date} ${r.course}${r.race_no}R ${r.race_name || ""} ` +
+    const tag = r.upcoming ? "🔮予想 " : "";
+    o.textContent = `${tag}${r.date} ${r.course}${r.race_no}R ${r.race_name || ""} ` +
       `(${r.surface}${r.distance}m${r.grade ? " " + r.grade : ""})`;
     sel.appendChild(o);
   });
@@ -95,6 +96,8 @@ async function showRace(raceId) {
     <p class="cond">${esc(c.date)} ${esc(c.course)}${c.race_no}R / ${esc(c.surface)}${c.distance}m /
       ${esc(c.turn || "")}回り / 馬場${esc(c.going || "")} / ${c.head_count}頭</p>
     <p class="verdict">${esc(d.verdict.comment)}</p>
+    ${d.draw_pending ? `<p class="verdict" style="border-left-color:var(--warn)">
+      🔮 <b>枠順抽選前の予想です。</b>馬番は暫定（五十音順）。枠順が確定したら取り直すと正確になります。</p>` : ""}
     ${d.pace ? `<p class="verdict pace"><b>展開予測: ${esc(d.pace.label)}</b><br>
       ${esc(d.pace.comment)}</p>` : ""}`;
   body.appendChild(head);
