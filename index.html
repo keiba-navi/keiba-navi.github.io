@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>競馬予想ボード</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>競馬予想ボード</h1>
+  <p class="sub" id="dbstat">データ読込中…</p>
+</header>
+
+<nav class="tabs">
+  <button class="tab active" data-view="race">レース予想</button>
+  <button class="tab" data-view="horse">馬を調べる</button>
+  <button class="tab" data-view="sire">産駒（血統）</button>
+  <button class="tab" data-view="course">コース傾向</button>
+</nav>
+
+<!-- ============ レース予想 ============ -->
+<section id="view-race" class="view">
+  <div class="picker">
+    <select id="raceGrade"><option value="">全グレード</option></select>
+    <select id="raceSelect"></select>
+  </div>
+  <div id="raceBody" class="empty">レースを選んでください</div>
+</section>
+
+<!-- ============ 馬を調べる ============ -->
+<section id="view-horse" class="view hidden">
+  <div class="picker">
+    <input id="horseSearch" type="search" placeholder="馬名を入力（例: ダノン）" autocomplete="off">
+  </div>
+  <ul id="horseHits" class="hits"></ul>
+  <div id="horseBody" class="empty">馬名を検索してください</div>
+</section>
+
+<!-- ============ 産駒（血統） ============ -->
+<section id="view-sire" class="view hidden">
+  <div class="picker">
+    <select id="sireSelect"></select>
+  </div>
+  <div id="sireBody" class="empty">種牡馬を選んでください</div>
+</section>
+
+<!-- ============ コース傾向 ============ -->
+<section id="view-course" class="view hidden">
+  <div class="picker">
+    <select id="courseSelect"></select>
+  </div>
+  <div id="courseBody" class="empty">条件を選んでください</div>
+</section>
+
+<footer>
+  <p>データは自分で収集したローカルDBから生成。予想は統計上の傾向であり的中を保証するものではありません。</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
