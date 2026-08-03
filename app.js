@@ -155,6 +155,27 @@ async function showRace(raceId) {
   }
   showReasons(d.predictions[0]);
 
+  // 消し候補（スコア下位5頭）。検証では複勝率9%ゾーン＝ヒモ削りの優先順。
+  // ただし勝ち馬がここから出るのは約7レースに1回あるので「絶対」ではない。
+  if (d.predictions.length >= 11) {
+    const bc2 = card("消し候補（スコア下位5頭・複勝率9%ゾーン）", null);
+    bc2.appendChild(el("p", "cond",
+      "ヒモから削る優先順の参考。約7レースに1回は勝ち馬がここから出るので過信は禁物"));
+    const ul2 = el("ul", "plans");
+    d.predictions.slice(-5).forEach((p) => {
+      const worst = (p.reasons || []).filter((r) => r.contrib < 0)
+        .sort((a, b) => a.contrib - b.contrib).slice(0, 2)
+        .map((r) => `${r.label}(${r.contrib.toFixed(2)})`).join("・");
+      const li = el("li");
+      li.innerHTML = `<span class="btype">消</span>
+        <span class="blabel">${p.horse_no ?? "-"} ${esc(p.horse_name)}</span>
+        <span class="cond">${esc(worst || "強みが無い")}</span>`;
+      ul2.appendChild(li);
+    });
+    bc2.appendChild(ul2);
+    body.appendChild(bc2);
+  }
+
   // 買い目
   if (d.bets && d.bets.plans.length) {
     const bc = card("買い目の候補", null);
