@@ -9,8 +9,8 @@
   "surface": "芝",
   "distance": 2000,
   "turn": "右",
-  "weather": null,
-  "going": null,
+  "weather": "晴",
+  "going": "良",
   "date": "2026-10-18",
   "course": "京都",
   "race_no": 11,
@@ -1171,44 +1171,46 @@
   {
    "horse_no": 12,
    "horse_name": "カナルサンマルタン",
-   "rank": 5,
-   "fit": 0.32,
+   "rank": 4,
+   "fit": 0.305,
    "good": [
     "芝",
+    "馬場良",
     "右回り"
    ],
-   "reason": "得意条件が2個そろう（芝・右回り）"
+   "reason": "得意条件が3個そろう（芝・馬場良・右回り）"
   },
   {
    "horse_no": 14,
    "horse_name": "サムシングスイート",
    "rank": 9,
-   "fit": 0.317,
+   "fit": 0.296,
    "good": [
     "距離帯 中距離(1801-2200)",
     "2000m",
     "芝",
-    "右回り"
+    "馬場良"
    ],
-   "reason": "得意条件が4個そろう（距離帯 中距離(1801-2200)・2000m・芝）"
+   "reason": "得意条件が5個そろう（距離帯 中距離(1801-2200)・2000m・芝）"
   },
   {
    "horse_no": 1,
    "horse_name": "ギャラボーグ",
    "rank": 6,
-   "fit": 0.311,
+   "fit": 0.287,
    "good": [
     "芝",
+    "馬場良",
     "右回り",
     "G1実績"
    ],
-   "reason": "得意条件が3個そろう（芝・右回り・G1実績）"
+   "reason": "得意条件が4個そろう（芝・馬場良・右回り）"
   },
   {
    "horse_no": 3,
    "horse_name": "マスターソアラ",
    "rank": 11,
-   "fit": 0.27,
+   "fit": 0.234,
    "good": [
     "距離帯 中距離(1801-2200)",
     "2000m",
@@ -1226,10 +1228,10 @@
      16,
      8,
      13,
-     5,
-     12
+     12,
+     5
     ],
-    "label": "16 → 8・13・5・12",
+    "label": "16 → 8・13・12・5",
     "reason": "◎ハヤブササキチャンから4点流し（荒れ度44%）"
    },
    {
@@ -1238,17 +1240,17 @@
      16,
      8,
      13,
-     5,
-     12
+     12,
+     5
     ],
-    "label": "16 - 8・13・5・12 - 8・13・5・12",
+    "label": "16 - 8・13・12・5 - 8・13・12・5",
     "reason": "◎軸1頭、相手4頭のBOX（6点）"
    }
   ],
   "axis": {
    "horse_no": 16,
    "horse_name": "ハヤブササキチャン",
-   "win_prob": 0.1274
+   "win_prob": 0.1332
   },
   "has_odds": true,
   "places": 3,
@@ -1259,205 +1261,205 @@
     "horse_no": 16,
     "horse_name": "ハヤブササキチャン",
     "score": 100.0,
-    "odds": 34.0,
-    "popularity": 8,
-    "win_prob": 0.1274,
-    "top3_prob": 0.3558,
-    "market_prob": 0.0235,
-    "ev": 4.333,
-    "edge_ratio": 5.416
+    "odds": 53.6,
+    "popularity": 9,
+    "win_prob": 0.1332,
+    "top3_prob": 0.3699,
+    "market_prob": 0.0149,
+    "ev": 7.137,
+    "edge_ratio": 8.921
    },
    {
     "horse_no": 8,
     "horse_name": "モンローウォーク",
-    "score": 91.3,
-    "odds": 1.4,
+    "score": 92.1,
+    "odds": 1.3,
     "popularity": 1,
-    "win_prob": 0.1025,
-    "top3_prob": 0.2958,
-    "market_prob": 0.5714,
-    "ev": 0.144,
-    "edge_ratio": 0.179
+    "win_prob": 0.1093,
+    "top3_prob": 0.3134,
+    "market_prob": 0.6154,
+    "ev": 0.142,
+    "edge_ratio": 0.178
    },
    {
     "horse_no": 13,
     "horse_name": "ドリームコア",
-    "score": 80.4,
-    "odds": 9.5,
+    "score": 79.0,
+    "odds": 8.4,
     "popularity": 2,
-    "win_prob": 0.0781,
-    "top3_prob": 0.2322,
-    "market_prob": 0.0842,
-    "ev": 0.742,
-    "edge_ratio": 0.927
-   },
-   {
-    "horse_no": 5,
-    "horse_name": "タイセイボーグ",
-    "score": 77.6,
-    "odds": 73.6,
-    "popularity": 13,
-    "win_prob": 0.0728,
-    "top3_prob": 0.2179,
-    "market_prob": 0.0109,
-    "ev": 5.357,
-    "edge_ratio": 6.697
+    "win_prob": 0.0788,
+    "top3_prob": 0.2347,
+    "market_prob": 0.0952,
+    "ev": 0.662,
+    "edge_ratio": 0.827
    },
    {
     "horse_no": 12,
     "horse_name": "カナルサンマルタン",
-    "score": 77.1,
-    "odds": 17.2,
-    "popularity": 5,
-    "win_prob": 0.0719,
-    "top3_prob": 0.2154,
-    "market_prob": 0.0465,
-    "ev": 1.236,
-    "edge_ratio": 1.546
+    "score": 76.8,
+    "odds": 16.9,
+    "popularity": 4,
+    "win_prob": 0.0746,
+    "top3_prob": 0.2233,
+    "market_prob": 0.0473,
+    "ev": 1.26,
+    "edge_ratio": 1.575
+   },
+   {
+    "horse_no": 5,
+    "horse_name": "タイセイボーグ",
+    "score": 76.1,
+    "odds": 86.2,
+    "popularity": 12,
+    "win_prob": 0.0733,
+    "top3_prob": 0.2198,
+    "market_prob": 0.0093,
+    "ev": 6.315,
+    "edge_ratio": 7.894
    },
    {
     "horse_no": 1,
     "horse_name": "ギャラボーグ",
-    "score": 75.5,
-    "odds": 39.1,
-    "popularity": 9,
-    "win_prob": 0.0691,
-    "top3_prob": 0.2077,
-    "market_prob": 0.0205,
-    "ev": 2.701,
-    "edge_ratio": 3.376
+    "score": 73.6,
+    "odds": 36.2,
+    "popularity": 7,
+    "win_prob": 0.0688,
+    "top3_prob": 0.2076,
+    "market_prob": 0.0221,
+    "ev": 2.491,
+    "edge_ratio": 3.114
    },
    {
     "horse_no": 11,
     "horse_name": "ガーネットフレア",
-    "score": 72.4,
-    "odds": 39.7,
+    "score": 71.0,
+    "odds": 53.8,
     "popularity": 10,
-    "win_prob": 0.0639,
-    "top3_prob": 0.1933,
-    "market_prob": 0.0202,
-    "ev": 2.537,
-    "edge_ratio": 3.172
+    "win_prob": 0.0645,
+    "top3_prob": 0.1955,
+    "market_prob": 0.0149,
+    "ev": 3.47,
+    "edge_ratio": 4.337
    },
    {
     "horse_no": 2,
     "horse_name": "テイエムアイラン",
-    "score": 68.3,
-    "odds": 68.0,
-    "popularity": 12,
-    "win_prob": 0.0577,
-    "top3_prob": 0.1758,
-    "market_prob": 0.0118,
-    "ev": 3.923,
-    "edge_ratio": 4.904
+    "score": 65.4,
+    "odds": 129.5,
+    "popularity": 13,
+    "win_prob": 0.0561,
+    "top3_prob": 0.1716,
+    "market_prob": 0.0062,
+    "ev": 7.26,
+    "edge_ratio": 9.076
    },
    {
     "horse_no": 14,
     "horse_name": "サムシングスイート",
-    "score": 67.6,
-    "odds": 32.2,
-    "popularity": 7,
-    "win_prob": 0.0567,
-    "top3_prob": 0.1729,
-    "market_prob": 0.0248,
-    "ev": 1.825,
-    "edge_ratio": 2.282
+    "score": 65.3,
+    "odds": 43.4,
+    "popularity": 8,
+    "win_prob": 0.0559,
+    "top3_prob": 0.1712,
+    "market_prob": 0.0184,
+    "ev": 2.427,
+    "edge_ratio": 3.034
    },
    {
     "horse_no": 4,
     "horse_name": "エンネ",
-    "score": 62.5,
-    "odds": 24.5,
+    "score": 61.9,
+    "odds": 22.8,
     "popularity": 6,
-    "win_prob": 0.0499,
-    "top3_prob": 0.1534,
-    "market_prob": 0.0327,
-    "ev": 1.223,
-    "edge_ratio": 1.528
+    "win_prob": 0.0514,
+    "top3_prob": 0.1581,
+    "market_prob": 0.0351,
+    "ev": 1.171,
+    "edge_ratio": 1.464
    },
    {
     "horse_no": 3,
     "horse_name": "マスターソアラ",
-    "score": 57.0,
-    "odds": 15.8,
-    "popularity": 4,
-    "win_prob": 0.0435,
-    "top3_prob": 0.1347,
-    "market_prob": 0.0506,
-    "ev": 0.687,
-    "edge_ratio": 0.859
+    "score": 51.2,
+    "odds": 18.9,
+    "popularity": 5,
+    "win_prob": 0.0393,
+    "top3_prob": 0.1226,
+    "market_prob": 0.0423,
+    "ev": 0.743,
+    "edge_ratio": 0.929
    },
    {
     "horse_no": 9,
     "horse_name": "スウィートハピネス",
-    "score": 55.0,
-    "odds": 79.9,
-    "popularity": 14,
-    "win_prob": 0.0414,
-    "top3_prob": 0.1284,
-    "market_prob": 0.01,
-    "ev": 3.306,
-    "edge_ratio": 4.132
-   },
-   {
-    "horse_no": 6,
-    "horse_name": "ラベルセーヌ",
-    "score": 52.3,
-    "odds": 12.1,
-    "popularity": 3,
+    "score": 50.6,
+    "odds": 76.8,
+    "popularity": 11,
     "win_prob": 0.0387,
-    "top3_prob": 0.1204,
-    "market_prob": 0.0661,
-    "ev": 0.468,
-    "edge_ratio": 0.585
+    "top3_prob": 0.1209,
+    "market_prob": 0.0104,
+    "ev": 2.974,
+    "edge_ratio": 3.718
    },
    {
     "horse_no": 15,
     "horse_name": "フェスティバルヒル",
-    "score": 51.7,
-    "odds": 119.0,
+    "score": 49.2,
+    "odds": 191.1,
     "popularity": 15,
-    "win_prob": 0.0381,
-    "top3_prob": 0.1187,
-    "market_prob": 0.0067,
-    "ev": 4.533,
-    "edge_ratio": 5.667
+    "win_prob": 0.0374,
+    "top3_prob": 0.1169,
+    "market_prob": 0.0042,
+    "ev": 7.146,
+    "edge_ratio": 8.933
+   },
+   {
+    "horse_no": 6,
+    "horse_name": "ラベルセーヌ",
+    "score": 46.3,
+    "odds": 11.0,
+    "popularity": 3,
+    "win_prob": 0.0348,
+    "top3_prob": 0.109,
+    "market_prob": 0.0727,
+    "ev": 0.383,
+    "edge_ratio": 0.478
    },
    {
     "horse_no": 7,
     "horse_name": "バースデイフライト",
-    "score": 47.3,
-    "odds": 144.2,
+    "score": 44.5,
+    "odds": 275.3,
     "popularity": 16,
-    "win_prob": 0.0341,
-    "top3_prob": 0.1068,
-    "market_prob": 0.0055,
-    "ev": 4.921,
-    "edge_ratio": 6.151
+    "win_prob": 0.0332,
+    "top3_prob": 0.1044,
+    "market_prob": 0.0029,
+    "ev": 9.153,
+    "edge_ratio": 11.442
    },
    {
     "horse_no": 10,
     "horse_name": "ナイスプレーアスク",
-    "score": 44.9,
-    "odds": 180.5,
+    "score": 37.2,
+    "odds": 294.0,
     "popularity": 17,
-    "win_prob": 0.0321,
-    "top3_prob": 0.1008,
-    "market_prob": 0.0044,
-    "ev": 5.801,
-    "edge_ratio": 7.251
+    "win_prob": 0.0277,
+    "top3_prob": 0.0875,
+    "market_prob": 0.0027,
+    "ev": 8.144,
+    "edge_ratio": 10.181
    },
    {
     "horse_no": 17,
     "horse_name": "ロザーンジュ",
     "score": 30.0,
-    "odds": 63.1,
-    "popularity": 11,
-    "win_prob": 0.0221,
-    "top3_prob": 0.0702,
-    "market_prob": 0.0127,
-    "ev": 1.397,
-    "edge_ratio": 1.747
+    "odds": 142.7,
+    "popularity": 14,
+    "win_prob": 0.0231,
+    "top3_prob": 0.0735,
+    "market_prob": 0.0056,
+    "ev": 3.302,
+    "edge_ratio": 4.127
    }
   ]
  },
@@ -1465,9 +1467,10 @@
   {
    "horse_id": "2023106894",
    "horse_name": "ハヤブササキチャン",
-   "fit": 0.225,
+   "fit": 0.229,
    "fit_good": [
     "芝",
+    "馬場良",
     "右回り",
     "京都"
    ],
@@ -1475,11 +1478,11 @@
    "horse_no": 16,
    "frame": 8,
    "jockey": "吉田隼",
-   "odds": 34.0,
-   "popularity": 8,
+   "odds": 53.6,
+   "popularity": 9,
    "main_style": "差し",
    "career_n": 9,
-   "raw": 11.5195,
+   "raw": 12.3638,
    "reasons": [
     {
      "label": "総合力",
@@ -1510,6 +1513,14 @@
      "n": 4,
      "contrib": 0.985,
      "note": "同じ間隔での過去成績",
+     "top3_rate": 1.0
+    },
+    {
+     "label": "馬場良",
+     "edge": 0.241,
+     "n": 8,
+     "contrib": 0.844,
+     "note": "※自身の平均比",
      "top3_rate": 1.0
     },
     {
@@ -1605,13 +1616,6 @@
      "top3_rate": 1.0
     },
     {
-     "label": "馬場-",
-     "edge": null,
-     "n": 0,
-     "contrib": 0.0,
-     "note": "データなし"
-    },
-    {
      "label": "G1実績",
      "edge": null,
      "n": 0,
@@ -1640,26 +1644,27 @@
    "thin": {
     "flag": false,
     "career_n": 9,
-    "thin_share": 0.1
+    "thin_share": 0.09
    }
   },
   {
    "horse_id": "2023106859",
    "horse_name": "モンローウォーク",
-   "fit": 0.318,
+   "fit": 0.309,
    "fit_good": [
     "芝",
+    "馬場良",
     "右回り"
    ],
    "fit_bad": [],
    "horse_no": 8,
    "frame": 4,
    "jockey": "戸崎圭",
-   "odds": 1.4,
+   "odds": 1.3,
    "popularity": 1,
    "main_style": "先行",
    "career_n": 4,
-   "raw": 10.1837,
+   "raw": 11.2058,
    "reasons": [
     {
      "label": "総合力",
@@ -1682,6 +1687,14 @@
      "n": 4,
      "contrib": 1.477,
      "note": "予測ペースでの過去成績",
+     "top3_rate": 1.0
+    },
+    {
+     "label": "馬場良",
+     "edge": 0.291,
+     "n": 3,
+     "contrib": 1.022,
+     "note": "※自身の平均比",
      "top3_rate": 1.0
     },
     {
@@ -1774,15 +1787,15 @@
     {
      "label": "産駒:キズナ × 芝",
      "edge": 0.03,
-     "n": 2040,
+     "n": 2041,
      "contrib": 0.011,
      "note": "産駒の芝ダート適性。自身4戦なので血統の重み×0.60",
-     "top3_rate": 0.394
+     "top3_rate": 0.393
     },
     {
      "label": "産駒:キズナの強さ",
      "edge": 0.028,
-     "n": 2505,
+     "n": 2506,
      "contrib": 0.008,
      "note": "産駒全体の成績。自身4戦なので血統の重み×0.60",
      "top3_rate": 0.393
@@ -1808,13 +1821,6 @@
      "contrib": 0.0,
      "note": "※自身の平均比",
      "top3_rate": 1.0
-    },
-    {
-     "label": "馬場-",
-     "edge": null,
-     "n": 0,
-     "contrib": 0.0,
-     "note": "データなし"
     },
     {
      "label": "京都",
@@ -1853,32 +1859,33 @@
      "top3_rate": 0.478
     }
    ],
-   "score": 91.3,
+   "score": 92.1,
    "mark": "○",
    "rank": 2,
    "actual": null,
    "thin": {
     "flag": true,
     "career_n": 4,
-    "thin_share": 0.14
+    "thin_share": 0.22
    }
   },
   {
    "horse_id": "2023107146",
    "horse_name": "ドリームコア",
-   "fit": 0.104,
+   "fit": 0.122,
    "fit_good": [
-    "芝"
+    "芝",
+    "馬場良"
    ],
    "fit_bad": [],
    "horse_no": 13,
    "frame": 7,
    "jockey": "ルメール",
-   "odds": 9.5,
+   "odds": 8.4,
    "popularity": 2,
    "main_style": "差し",
    "career_n": 7,
-   "raw": 8.513,
+   "raw": 9.3079,
    "reasons": [
     {
      "label": "総合力",
@@ -1902,6 +1909,14 @@
      "n": 5,
      "contrib": 1.023,
      "note": "直近ほど重い加重平均"
+    },
+    {
+     "label": "馬場良",
+     "edge": 0.227,
+     "n": 6,
+     "contrib": 0.795,
+     "note": "※自身の平均比",
+     "top3_rate": 0.833
     },
     {
      "label": "中5〜10週(42日)",
@@ -2001,15 +2016,15 @@
     {
      "label": "産駒:キズナ × 芝",
      "edge": 0.03,
-     "n": 2040,
+     "n": 2041,
      "contrib": 0.008,
      "note": "産駒の芝ダート適性。自身7戦なので血統の重み×0.46",
-     "top3_rate": 0.394
+     "top3_rate": 0.393
     },
     {
      "label": "産駒:キズナの強さ",
      "edge": 0.028,
-     "n": 2505,
+     "n": 2506,
      "contrib": 0.006,
      "note": "産駒全体の成績。自身7戦なので血統の重み×0.46",
      "top3_rate": 0.393
@@ -2017,7 +2032,7 @@
     {
      "label": "母父:(米) × 芝",
      "edge": 0.007,
-     "n": 6434,
+     "n": 6437,
      "contrib": 0.001,
      "note": "産駒の芝ダート適性。自身7戦なので血統の重み×0.46",
      "top3_rate": 0.385
@@ -2047,13 +2062,6 @@
      "top3_rate": 0.857
     },
     {
-     "label": "馬場-",
-     "edge": null,
-     "n": 0,
-     "contrib": 0.0,
-     "note": "データなし"
-    },
-    {
      "label": "京都",
      "edge": null,
      "n": 0,
@@ -2070,38 +2078,213 @@
     {
      "label": "母父:(米)の強さ",
      "edge": 0.023,
-     "n": 8504,
+     "n": 8507,
      "contrib": 0.0,
      "note": "産駒全体の成績。自身7戦なので血統の重み×0.46",
      "top3_rate": 0.391
     }
    ],
-   "score": 80.4,
+   "score": 79.0,
    "mark": "▲",
    "rank": 3,
    "actual": null,
    "thin": {
     "flag": true,
     "career_n": 7,
-    "thin_share": 0.15
+    "thin_share": 0.14
+   }
+  },
+  {
+   "horse_id": "2023106846",
+   "horse_name": "カナルサンマルタン",
+   "fit": 0.305,
+   "fit_good": [
+    "芝",
+    "馬場良",
+    "右回り"
+   ],
+   "fit_bad": [],
+   "horse_no": 12,
+   "frame": 6,
+   "jockey": "岩田望",
+   "odds": 16.9,
+   "popularity": 4,
+   "main_style": "先行",
+   "career_n": 3,
+   "raw": 8.9856,
+   "reasons": [
+    {
+     "label": "総合力",
+     "edge": 1.385,
+     "n": 3,
+     "contrib": 4.154,
+     "note": "",
+     "top3_rate": 1.0
+    },
+    {
+     "label": "近況(3走)",
+     "edge": 0.981,
+     "n": 3,
+     "contrib": 1.444,
+     "note": "直近ほど重い加重平均"
+    },
+    {
+     "label": "馬場良",
+     "edge": 0.276,
+     "n": 2,
+     "contrib": 0.97,
+     "note": "※自身の平均比",
+     "top3_rate": 1.0
+    },
+    {
+     "label": "右回り",
+     "edge": 0.276,
+     "n": 2,
+     "contrib": 0.755,
+     "note": "※自身の平均比",
+     "top3_rate": 1.0
+    },
+    {
+     "label": "スローペース実績",
+     "edge": 0.615,
+     "n": 1,
+     "contrib": 0.554,
+     "note": "予測ペースでの過去成績",
+     "top3_rate": 1.0
+    },
+    {
+     "label": "展開:スローペース × 先行",
+     "edge": 0.5,
+     "n": 17,
+     "contrib": 0.4,
+     "note": "展開が向く"
+    },
+    {
+     "label": "休み明け(3〜6ヶ月)(169日)",
+     "edge": 0.615,
+     "n": 1,
+     "contrib": 0.369,
+     "note": "同じ間隔での過去成績",
+     "top3_rate": 1.0
+    },
+    {
+     "label": "厩舎:宮田敬介",
+     "edge": 0.476,
+     "n": 232,
+     "contrib": 0.285,
+     "note": "調教師の重賞級での成績",
+     "top3_rate": 0.328
+    },
+    {
+     "label": "脚質:先行",
+     "edge": 0.405,
+     "n": 188,
+     "contrib": 0.091,
+     "note": "このコースでの脚質傾向。104レースから。信頼度×0.57",
+     "top3_rate": 0.309
+    },
+    {
+     "label": "牝馬",
+     "edge": -0.129,
+     "n": 166,
+     "contrib": -0.064,
+     "note": "この条件での性別の傾向",
+     "top3_rate": 0.181
+    },
+    {
+     "label": "枠6の有利不利",
+     "edge": 0.27,
+     "n": 162,
+     "contrib": 0.053,
+     "note": "このコースでの枠傾向。104レースから。信頼度×0.57",
+     "top3_rate": 0.278
+    },
+    {
+     "label": "3歳",
+     "edge": -0.053,
+     "n": 175,
+     "contrib": -0.026,
+     "note": "この条件での年齢の傾向",
+     "top3_rate": 0.2
+    },
+    {
+     "label": "距離帯 中距離(1801-2200)",
+     "edge": null,
+     "n": 0,
+     "contrib": 0.0,
+     "note": "データなし"
+    },
+    {
+     "label": "2000m",
+     "edge": null,
+     "n": 0,
+     "contrib": 0.0,
+     "note": "データなし"
+    },
+    {
+     "label": "芝",
+     "edge": 0.363,
+     "n": 3,
+     "contrib": 0.0,
+     "note": "※自身の平均比",
+     "top3_rate": 1.0
+    },
+    {
+     "label": "京都",
+     "edge": null,
+     "n": 0,
+     "contrib": 0.0,
+     "note": "データなし"
+    },
+    {
+     "label": "G1実績",
+     "edge": null,
+     "n": 0,
+     "contrib": 0.0,
+     "note": "データなし"
+    },
+    {
+     "label": "岩田望騎乗",
+     "edge": null,
+     "n": 0,
+     "contrib": 0.0,
+     "note": "データなし"
+    },
+    {
+     "label": "秋華賞実績",
+     "edge": null,
+     "n": 0,
+     "contrib": 0.0,
+     "note": "データなし"
+    }
+   ],
+   "score": 76.8,
+   "mark": "△",
+   "rank": 4,
+   "actual": null,
+   "thin": {
+    "flag": true,
+    "career_n": 3,
+    "thin_share": 0.91
    }
   },
   {
    "horse_id": "2023106900",
    "horse_name": "タイセイボーグ",
-   "fit": 0.168,
+   "fit": 0.183,
    "fit_good": [
-    "芝"
+    "芝",
+    "馬場良"
    ],
    "fit_bad": [],
    "horse_no": 5,
    "frame": 3,
    "jockey": "西村淳",
-   "odds": 73.6,
-   "popularity": 13,
+   "odds": 86.2,
+   "popularity": 12,
    "main_style": "差し",
    "career_n": 7,
-   "raw": 8.0877,
+   "raw": 8.8828,
    "reasons": [
     {
      "label": "総合力",
@@ -2126,6 +2309,14 @@
      "contrib": 0.831,
      "note": "同じ間隔での過去成績",
      "top3_rate": 1.0
+    },
+    {
+     "label": "馬場良",
+     "edge": 0.227,
+     "n": 6,
+     "contrib": 0.795,
+     "note": "※自身の平均比",
+     "top3_rate": 0.833
     },
     {
      "label": "近況(5走)",
@@ -2244,13 +2435,6 @@
      "top3_rate": 0.857
     },
     {
-     "label": "馬場-",
-     "edge": null,
-     "n": 0,
-     "contrib": 0.0,
-     "note": "データなし"
-    },
-    {
      "label": "京都",
      "edge": null,
      "n": 0,
@@ -2294,194 +2478,23 @@
      "note": "データなし"
     }
    ],
-   "score": 77.6,
-   "mark": "△",
-   "rank": 4,
-   "actual": null,
-   "thin": {
-    "flag": true,
-    "career_n": 7,
-    "thin_share": 0.14
-   }
-  },
-  {
-   "horse_id": "2023106846",
-   "horse_name": "カナルサンマルタン",
-   "fit": 0.32,
-   "fit_good": [
-    "芝",
-    "右回り"
-   ],
-   "fit_bad": [],
-   "horse_no": 12,
-   "frame": 6,
-   "jockey": "岩田望",
-   "odds": 17.2,
-   "popularity": 5,
-   "main_style": "先行",
-   "career_n": 3,
-   "raw": 8.0151,
-   "reasons": [
-    {
-     "label": "総合力",
-     "edge": 1.385,
-     "n": 3,
-     "contrib": 4.154,
-     "note": "",
-     "top3_rate": 1.0
-    },
-    {
-     "label": "近況(3走)",
-     "edge": 0.981,
-     "n": 3,
-     "contrib": 1.444,
-     "note": "直近ほど重い加重平均"
-    },
-    {
-     "label": "右回り",
-     "edge": 0.276,
-     "n": 2,
-     "contrib": 0.755,
-     "note": "※自身の平均比",
-     "top3_rate": 1.0
-    },
-    {
-     "label": "スローペース実績",
-     "edge": 0.615,
-     "n": 1,
-     "contrib": 0.554,
-     "note": "予測ペースでの過去成績",
-     "top3_rate": 1.0
-    },
-    {
-     "label": "展開:スローペース × 先行",
-     "edge": 0.5,
-     "n": 17,
-     "contrib": 0.4,
-     "note": "展開が向く"
-    },
-    {
-     "label": "休み明け(3〜6ヶ月)(169日)",
-     "edge": 0.615,
-     "n": 1,
-     "contrib": 0.369,
-     "note": "同じ間隔での過去成績",
-     "top3_rate": 1.0
-    },
-    {
-     "label": "厩舎:宮田敬介",
-     "edge": 0.476,
-     "n": 232,
-     "contrib": 0.285,
-     "note": "調教師の重賞級での成績",
-     "top3_rate": 0.328
-    },
-    {
-     "label": "脚質:先行",
-     "edge": 0.405,
-     "n": 188,
-     "contrib": 0.091,
-     "note": "このコースでの脚質傾向。104レースから。信頼度×0.57",
-     "top3_rate": 0.309
-    },
-    {
-     "label": "牝馬",
-     "edge": -0.129,
-     "n": 166,
-     "contrib": -0.064,
-     "note": "この条件での性別の傾向",
-     "top3_rate": 0.181
-    },
-    {
-     "label": "枠6の有利不利",
-     "edge": 0.27,
-     "n": 162,
-     "contrib": 0.053,
-     "note": "このコースでの枠傾向。104レースから。信頼度×0.57",
-     "top3_rate": 0.278
-    },
-    {
-     "label": "3歳",
-     "edge": -0.053,
-     "n": 175,
-     "contrib": -0.026,
-     "note": "この条件での年齢の傾向",
-     "top3_rate": 0.2
-    },
-    {
-     "label": "距離帯 中距離(1801-2200)",
-     "edge": null,
-     "n": 0,
-     "contrib": 0.0,
-     "note": "データなし"
-    },
-    {
-     "label": "2000m",
-     "edge": null,
-     "n": 0,
-     "contrib": 0.0,
-     "note": "データなし"
-    },
-    {
-     "label": "芝",
-     "edge": 0.363,
-     "n": 3,
-     "contrib": 0.0,
-     "note": "※自身の平均比",
-     "top3_rate": 1.0
-    },
-    {
-     "label": "馬場-",
-     "edge": null,
-     "n": 0,
-     "contrib": 0.0,
-     "note": "データなし"
-    },
-    {
-     "label": "京都",
-     "edge": null,
-     "n": 0,
-     "contrib": 0.0,
-     "note": "データなし"
-    },
-    {
-     "label": "G1実績",
-     "edge": null,
-     "n": 0,
-     "contrib": 0.0,
-     "note": "データなし"
-    },
-    {
-     "label": "岩田望騎乗",
-     "edge": null,
-     "n": 0,
-     "contrib": 0.0,
-     "note": "データなし"
-    },
-    {
-     "label": "秋華賞実績",
-     "edge": null,
-     "n": 0,
-     "contrib": 0.0,
-     "note": "データなし"
-    }
-   ],
-   "score": 77.1,
+   "score": 76.1,
    "mark": "☆",
    "rank": 5,
    "actual": null,
    "thin": {
     "flag": true,
-    "career_n": 3,
-    "thin_share": 0.9
+    "career_n": 7,
+    "thin_share": 0.12
    }
   },
   {
    "horse_id": "2023105825",
    "horse_name": "ギャラボーグ",
-   "fit": 0.311,
+   "fit": 0.287,
    "fit_good": [
     "芝",
+    "馬場良",
     "右回り",
     "G1実績"
    ],
@@ -2489,11 +2502,11 @@
    "horse_no": 1,
    "frame": 1,
    "jockey": "横山和",
-   "odds": 39.1,
-   "popularity": 9,
+   "odds": 36.2,
+   "popularity": 7,
    "main_style": "差し",
    "career_n": 5,
-   "raw": 7.7691,
+   "raw": 8.5182,
    "reasons": [
     {
      "label": "総合力",
@@ -2525,6 +2538,14 @@
      "contrib": 0.796,
      "note": "※自身の平均比",
      "top3_rate": 1.0
+    },
+    {
+     "label": "馬場良",
+     "edge": 0.214,
+     "n": 4,
+     "contrib": 0.75,
+     "note": "※自身の平均比",
+     "top3_rate": 0.75
     },
     {
      "label": "スローペース実績",
@@ -2591,19 +2612,19 @@
     },
     {
      "label": "産駒:ロードカナロアの強さ",
-     "edge": 0.088,
-     "n": 2559,
+     "edge": 0.087,
+     "n": 2561,
      "contrib": 0.024,
      "note": "産駒全体の成績。自身5戦なので血統の重み×0.55",
-     "top3_rate": 0.416
+     "top3_rate": 0.415
     },
     {
      "label": "産駒:ロードカナロア × 芝",
-     "edge": 0.067,
-     "n": 2068,
-     "contrib": 0.022,
+     "edge": 0.066,
+     "n": 2070,
+     "contrib": 0.021,
      "note": "産駒の芝ダート適性。自身5戦なので血統の重み×0.55",
-     "top3_rate": 0.408
+     "top3_rate": 0.407
     },
     {
      "label": "母父:(米) × 中距離(1801-2200)",
@@ -2616,7 +2637,7 @@
     {
      "label": "母父:(米) × 芝",
      "edge": 0.007,
-     "n": 6434,
+     "n": 6437,
      "contrib": 0.002,
      "note": "産駒の芝ダート適性。自身5戦なので血統の重み×0.55",
      "top3_rate": 0.385
@@ -2644,13 +2665,6 @@
      "top3_rate": 0.8
     },
     {
-     "label": "馬場-",
-     "edge": null,
-     "n": 0,
-     "contrib": 0.0,
-     "note": "データなし"
-    },
-    {
      "label": "京都",
      "edge": null,
      "n": 0,
@@ -2674,7 +2688,7 @@
     {
      "label": "母父:(米)の強さ",
      "edge": 0.023,
-     "n": 8504,
+     "n": 8507,
      "contrib": 0.0,
      "note": "産駒全体の成績。自身5戦なので血統の重み×0.55",
      "top3_rate": 0.391
@@ -2687,24 +2701,25 @@
      "note": "データなし"
     }
    ],
-   "score": 75.5,
+   "score": 73.6,
    "mark": "",
    "rank": 6,
    "actual": null,
    "thin": {
     "flag": true,
     "career_n": 5,
-    "thin_share": 0.3
+    "thin_share": 0.28
    }
   },
   {
    "horse_id": "2023107075",
    "horse_name": "ガーネットフレア",
-   "fit": 0.219,
+   "fit": 0.223,
    "fit_good": [
     "距離帯 中距離(1801-2200)",
     "2000m",
     "芝",
+    "馬場良",
     "右回り",
     "京都"
    ],
@@ -2712,11 +2727,11 @@
    "horse_no": 11,
    "frame": 6,
    "jockey": "北村友",
-   "odds": 39.7,
+   "odds": 53.8,
    "popularity": 10,
    "main_style": "先行",
    "career_n": 9,
-   "raw": 7.288,
+   "raw": 8.1384,
    "reasons": [
     {
      "label": "総合力",
@@ -2733,6 +2748,14 @@
      "contrib": 1.094,
      "note": "※自身の平均比",
      "top3_rate": 1.0
+    },
+    {
+     "label": "馬場良",
+     "edge": 0.242,
+     "n": 7,
+     "contrib": 0.85,
+     "note": "※自身の平均比",
+     "top3_rate": 0.714
     },
     {
      "label": "近況(5走)",
@@ -2844,13 +2867,6 @@
      "top3_rate": 1.0
     },
     {
-     "label": "馬場-",
-     "edge": null,
-     "n": 0,
-     "contrib": 0.0,
-     "note": "データなし"
-    },
-    {
      "label": "G1実績",
      "edge": null,
      "n": 0,
@@ -2872,32 +2888,33 @@
      "note": "データなし"
     }
    ],
-   "score": 72.4,
+   "score": 71.0,
    "mark": "",
    "rank": 7,
    "actual": null,
    "thin": {
     "flag": false,
     "career_n": 9,
-    "thin_share": 0.24
+    "thin_share": 0.22
    }
   },
   {
    "horse_id": "2023100448",
    "horse_name": "テイエムアイラン",
-   "fit": 0.083,
+   "fit": 0.108,
    "fit_good": [
-    "芝"
+    "芝",
+    "馬場良"
    ],
    "fit_bad": [],
    "horse_no": 2,
    "frame": 1,
    "jockey": "富田",
-   "odds": 68.0,
-   "popularity": 12,
+   "odds": 129.5,
+   "popularity": 13,
    "main_style": "差し",
    "career_n": 8,
-   "raw": 6.6733,
+   "raw": 7.3167,
    "reasons": [
     {
      "label": "総合力",
@@ -2929,6 +2946,14 @@
      "contrib": 0.672,
      "note": "同じ間隔での過去成績",
      "top3_rate": 0.75
+    },
+    {
+     "label": "馬場良",
+     "edge": 0.183,
+     "n": 7,
+     "contrib": 0.643,
+     "note": "※自身の平均比",
+     "top3_rate": 0.714
     },
     {
      "label": "展開:スローペース × 差し",
@@ -3023,13 +3048,6 @@
      "top3_rate": 0.75
     },
     {
-     "label": "馬場-",
-     "edge": null,
-     "n": 0,
-     "contrib": 0.0,
-     "note": "データなし"
-    },
-    {
      "label": "G1実績",
      "edge": null,
      "n": 0,
@@ -3051,7 +3069,7 @@
      "note": "データなし"
     }
    ],
-   "score": 68.3,
+   "score": 65.4,
    "mark": "",
    "rank": 8,
    "actual": null,
@@ -3064,22 +3082,23 @@
   {
    "horse_id": "2023106219",
    "horse_name": "サムシングスイート",
-   "fit": 0.317,
+   "fit": 0.296,
    "fit_good": [
     "距離帯 中距離(1801-2200)",
     "2000m",
     "芝",
+    "馬場良",
     "右回り"
    ],
    "fit_bad": [],
    "horse_no": 14,
    "frame": 7,
    "jockey": "松山",
-   "odds": 32.2,
-   "popularity": 7,
+   "odds": 43.4,
+   "popularity": 8,
    "main_style": "追込",
    "career_n": 7,
-   "raw": 6.5548,
+   "raw": 7.3071,
    "reasons": [
     {
      "label": "総合力",
@@ -3113,6 +3132,14 @@
      "top3_rate": 0.8
     },
     {
+     "label": "馬場良",
+     "edge": 0.215,
+     "n": 4,
+     "contrib": 0.755,
+     "note": "※自身の平均比",
+     "top3_rate": 0.75
+    },
+    {
      "label": "展開:スローペース × 追込",
      "edge": -0.5,
      "n": 17,
@@ -3128,20 +3155,20 @@
      "top3_rate": 0.183
     },
     {
-     "label": "産駒:サートゥルナーリア × 芝",
-     "edge": 0.265,
-     "n": 239,
-     "contrib": 0.073,
-     "note": "産駒の芝ダート適性。自身7戦なので血統の重み×0.46",
-     "top3_rate": 0.49
-    },
-    {
      "label": "産駒:サートゥルナーリア × 中距離(1801-2200)",
      "edge": 0.265,
      "n": 61,
      "contrib": 0.073,
      "note": "産駒の距離適性。自身7戦なので血統の重み×0.46",
      "top3_rate": 0.508
+    },
+    {
+     "label": "産駒:サートゥルナーリア × 芝",
+     "edge": 0.26,
+     "n": 240,
+     "contrib": 0.072,
+     "note": "産駒の芝ダート適性。自身7戦なので血統の重み×0.46",
+     "top3_rate": 0.487
     },
     {
      "label": "牝馬",
@@ -3153,11 +3180,11 @@
     },
     {
      "label": "産駒:サートゥルナーリアの強さ",
-     "edge": 0.257,
-     "n": 251,
-     "contrib": 0.059,
+     "edge": 0.252,
+     "n": 252,
+     "contrib": 0.058,
      "note": "産駒全体の成績。自身7戦なので血統の重み×0.46",
-     "top3_rate": 0.486
+     "top3_rate": 0.484
     },
     {
      "label": "脚質:追込",
@@ -3177,7 +3204,7 @@
     },
     {
      "label": "母父:スペシャルウィーク × 中距離(1801-2200)",
-     "edge": 0.139,
+     "edge": 0.14,
      "n": 584,
      "contrib": 0.026,
      "note": "産駒の距離適性。自身7戦なので血統の重み×0.46",
@@ -3194,7 +3221,7 @@
     {
      "label": "母父:スペシャルウィーク × 芝",
      "edge": 0.092,
-     "n": 2192,
+     "n": 2193,
      "contrib": 0.017,
      "note": "産駒の芝ダート適性。自身7戦なので血統の重み×0.46",
      "top3_rate": 0.417
@@ -3222,13 +3249,6 @@
      "contrib": 0.0,
      "note": "※自身の平均比",
      "top3_rate": 0.714
-    },
-    {
-     "label": "馬場-",
-     "edge": null,
-     "n": 0,
-     "contrib": 0.0,
-     "note": "データなし"
     },
     {
      "label": "京都",
@@ -3260,8 +3280,8 @@
     },
     {
      "label": "母父:スペシャルウィークの強さ",
-     "edge": 0.07,
-     "n": 2510,
+     "edge": 0.069,
+     "n": 2511,
      "contrib": 0.0,
      "note": "産駒全体の成績。自身7戦なので血統の重み×0.46",
      "top3_rate": 0.409
@@ -3274,7 +3294,7 @@
      "note": "データなし"
     }
    ],
-   "score": 67.6,
+   "score": 65.3,
    "mark": "",
    "rank": 9,
    "actual": null,
@@ -3287,11 +3307,12 @@
   {
    "horse_id": "2023102102",
    "horse_name": "エンネ",
-   "fit": 0.175,
+   "fit": 0.195,
    "fit_good": [
     "距離帯 中距離(1801-2200)",
     "2000m",
     "芝",
+    "馬場良",
     "右回り"
    ],
    "fit_bad": [
@@ -3300,11 +3321,11 @@
    "horse_no": 4,
    "frame": 2,
    "jockey": "坂井",
-   "odds": 24.5,
+   "odds": 22.8,
    "popularity": 6,
    "main_style": "追込",
    "career_n": 4,
-   "raw": 5.786,
+   "raw": 6.8158,
    "reasons": [
     {
      "label": "総合力",
@@ -3320,6 +3341,14 @@
      "n": 4,
      "contrib": 1.075,
      "note": "直近ほど重い加重平均"
+    },
+    {
+     "label": "馬場良",
+     "edge": 0.293,
+     "n": 4,
+     "contrib": 1.03,
+     "note": "※自身の平均比",
+     "top3_rate": 0.75
     },
     {
      "label": "右回り",
@@ -3419,15 +3448,15 @@
     {
      "label": "産駒:キズナ × 芝",
      "edge": 0.03,
-     "n": 2040,
+     "n": 2041,
      "contrib": 0.011,
      "note": "産駒の芝ダート適性。自身4戦なので血統の重み×0.60",
-     "top3_rate": 0.394
+     "top3_rate": 0.393
     },
     {
      "label": "産駒:キズナの強さ",
      "edge": 0.028,
-     "n": 2505,
+     "n": 2506,
      "contrib": 0.008,
      "note": "産駒全体の成績。自身4戦なので血統の重み×0.60",
      "top3_rate": 0.393
@@ -3435,7 +3464,7 @@
     {
      "label": "母父:(米) × 芝",
      "edge": 0.007,
-     "n": 6434,
+     "n": 6437,
      "contrib": 0.002,
      "note": "産駒の芝ダート適性。自身4戦なので血統の重み×0.60",
      "top3_rate": 0.385
@@ -3465,13 +3494,6 @@
      "top3_rate": 0.75
     },
     {
-     "label": "馬場-",
-     "edge": null,
-     "n": 0,
-     "contrib": 0.0,
-     "note": "データなし"
-    },
-    {
      "label": "京都",
      "edge": null,
      "n": 0,
@@ -3495,26 +3517,26 @@
     {
      "label": "母父:(米)の強さ",
      "edge": 0.023,
-     "n": 8504,
+     "n": 8507,
      "contrib": 0.0,
      "note": "産駒全体の成績。自身4戦なので血統の重み×0.60",
      "top3_rate": 0.391
     }
    ],
-   "score": 62.5,
+   "score": 61.9,
    "mark": "",
    "rank": 10,
    "actual": null,
    "thin": {
     "flag": true,
     "career_n": 4,
-    "thin_share": 0.3
+    "thin_share": 0.26
    }
   },
   {
    "horse_id": "2023106810",
    "horse_name": "マスターソアラ",
-   "fit": 0.27,
+   "fit": 0.234,
    "fit_good": [
     "距離帯 中距離(1801-2200)",
     "2000m",
@@ -3525,11 +3547,11 @@
    "horse_no": 3,
    "frame": 2,
    "jockey": "武豊",
-   "odds": 15.8,
-   "popularity": 4,
+   "odds": 18.9,
+   "popularity": 5,
    "main_style": "差し",
    "career_n": 3,
-   "raw": 4.9397,
+   "raw": 5.2455,
    "reasons": [
     {
      "label": "総合力",
@@ -3567,6 +3589,14 @@
      "n": 2,
      "contrib": 0.346,
      "note": "予測ペースでの過去成績",
+     "top3_rate": 0.5
+    },
+    {
+     "label": "馬場良",
+     "edge": 0.087,
+     "n": 2,
+     "contrib": 0.306,
+     "note": "※自身の平均比",
      "top3_rate": 0.5
     },
     {
@@ -3674,13 +3704,6 @@
      "top3_rate": 0.667
     },
     {
-     "label": "馬場-",
-     "edge": null,
-     "n": 0,
-     "contrib": 0.0,
-     "note": "データなし"
-    },
-    {
      "label": "京都",
      "edge": null,
      "n": 0,
@@ -3724,22 +3747,23 @@
      "note": "データなし"
     }
    ],
-   "score": 57.0,
+   "score": 51.2,
    "mark": "",
    "rank": 11,
    "actual": null,
    "thin": {
     "flag": true,
     "career_n": 3,
-    "thin_share": 0.88
+    "thin_share": 0.89
    }
   },
   {
    "horse_id": "2023104475",
    "horse_name": "スウィートハピネス",
-   "fit": 0.193,
+   "fit": 0.185,
    "fit_good": [
     "芝",
+    "馬場良",
     "右回り",
     "京都"
    ],
@@ -3749,11 +3773,11 @@
    "horse_no": 9,
    "frame": 5,
    "jockey": "佐々木",
-   "odds": 79.9,
-   "popularity": 14,
+   "odds": 76.8,
+   "popularity": 11,
    "main_style": "差し",
    "career_n": 7,
-   "raw": 4.6251,
+   "raw": 5.1677,
    "reasons": [
     {
      "label": "京都",
@@ -3786,6 +3810,14 @@
      "contrib": 0.709,
      "note": "※自身の平均比",
      "top3_rate": 0.5
+    },
+    {
+     "label": "馬場良",
+     "edge": 0.155,
+     "n": 7,
+     "contrib": 0.543,
+     "note": "※自身の平均比",
+     "top3_rate": 0.429
     },
     {
      "label": "近況(5走)",
@@ -3920,13 +3952,6 @@
      "top3_rate": 0.429
     },
     {
-     "label": "馬場-",
-     "edge": null,
-     "n": 0,
-     "contrib": 0.0,
-     "note": "データなし"
-    },
-    {
      "label": "佐々木騎乗",
      "edge": null,
      "n": 0,
@@ -3949,20 +3974,253 @@
      "top3_rate": 0.4
     }
    ],
-   "score": 55.0,
+   "score": 50.6,
    "mark": "",
    "rank": 12,
    "actual": null,
    "thin": {
     "flag": true,
     "career_n": 7,
-    "thin_share": 0.47
+    "thin_share": 0.44
+   }
+  },
+  {
+   "horse_id": "2023107265",
+   "horse_name": "フェスティバルヒル",
+   "fit": 0.131,
+   "fit_good": [
+    "芝",
+    "馬場良",
+    "京都"
+   ],
+   "fit_bad": [
+    "G1実績"
+   ],
+   "horse_no": 15,
+   "frame": 8,
+   "jockey": "浜中",
+   "odds": 191.1,
+   "popularity": 15,
+   "main_style": "差し",
+   "career_n": 5,
+   "raw": 4.9636,
+   "reasons": [
+    {
+     "label": "総合力",
+     "edge": 0.908,
+     "n": 5,
+     "contrib": 2.723,
+     "note": "",
+     "top3_rate": 0.6
+    },
+    {
+     "label": "スローペース実績",
+     "edge": 1.385,
+     "n": 3,
+     "contrib": 1.246,
+     "note": "予測ペースでの過去成績",
+     "top3_rate": 1.0
+    },
+    {
+     "label": "京都",
+     "edge": 0.243,
+     "n": 1,
+     "contrib": 0.949,
+     "note": "※自身の平均比",
+     "top3_rate": 1.0
+    },
+    {
+     "label": "馬場良",
+     "edge": 0.238,
+     "n": 5,
+     "contrib": 0.835,
+     "note": "※自身の平均比",
+     "top3_rate": 0.6
+    },
+    {
+     "label": "G1実績",
+     "edge": -0.167,
+     "n": 1,
+     "contrib": -0.477,
+     "note": "※自身の平均比",
+     "top3_rate": 0.0
+    },
+    {
+     "label": "斤量+3.0kg（前走52→今回55）",
+     "edge": -3.0,
+     "n": 1,
+     "contrib": -0.45,
+     "note": "前走比。軽くなれば加点"
+    },
+    {
+     "label": "展開:スローペース × 差し",
+     "edge": -0.5,
+     "n": 17,
+     "contrib": -0.4,
+     "note": "展開が向かない"
+    },
+    {
+     "label": "右回り",
+     "edge": 0.102,
+     "n": 4,
+     "contrib": 0.279,
+     "note": "※自身の平均比",
+     "top3_rate": 0.5
+    },
+    {
+     "label": "休み明け(3〜6ヶ月)(77日)",
+     "edge": -0.286,
+     "n": 2,
+     "contrib": -0.171,
+     "note": "同じ間隔での過去成績",
+     "top3_rate": 0.0
+    },
+    {
+     "label": "厩舎:四位洋文",
+     "edge": 0.27,
+     "n": 171,
+     "contrib": 0.162,
+     "note": "調教師の重賞級での成績",
+     "top3_rate": 0.281
+    },
+    {
+     "label": "脚質:差し",
+     "edge": 0.417,
+     "n": 481,
+     "contrib": 0.094,
+     "note": "このコースでの脚質傾向。104レースから。信頼度×0.57",
+     "top3_rate": 0.306
+    },
+    {
+     "label": "産駒:サートゥルナーリア × 中距離(1801-2200)",
+     "edge": 0.265,
+     "n": 61,
+     "contrib": 0.087,
+     "note": "産駒の距離適性。自身5戦なので血統の重み×0.55",
+     "top3_rate": 0.508
+    },
+    {
+     "label": "産駒:サートゥルナーリア × 芝",
+     "edge": 0.26,
+     "n": 240,
+     "contrib": 0.085,
+     "note": "産駒の芝ダート適性。自身5戦なので血統の重み×0.55",
+     "top3_rate": 0.487
+    },
+    {
+     "label": "産駒:サートゥルナーリアの強さ",
+     "edge": 0.252,
+     "n": 252,
+     "contrib": 0.069,
+     "note": "産駒全体の成績。自身5戦なので血統の重み×0.55",
+     "top3_rate": 0.484
+    },
+    {
+     "label": "近況(5走)",
+     "edge": 0.478,
+     "n": 5,
+     "contrib": -0.066,
+     "note": "直近ほど重い加重平均"
+    },
+    {
+     "label": "牝馬",
+     "edge": -0.129,
+     "n": 166,
+     "contrib": -0.064,
+     "note": "この条件での性別の傾向",
+     "top3_rate": 0.181
+    },
+    {
+     "label": "枠8の有利不利",
+     "edge": 0.201,
+     "n": 192,
+     "contrib": 0.04,
+     "note": "このコースでの枠傾向。104レースから。信頼度×0.57",
+     "top3_rate": 0.26
+    },
+    {
+     "label": "母父:スペシャルウィーク × 中距離(1801-2200)",
+     "edge": 0.14,
+     "n": 584,
+     "contrib": 0.03,
+     "note": "産駒の距離適性。自身5戦なので血統の重み×0.55",
+     "top3_rate": 0.437
+    },
+    {
+     "label": "3歳",
+     "edge": -0.053,
+     "n": 175,
+     "contrib": -0.026,
+     "note": "この条件での年齢の傾向",
+     "top3_rate": 0.2
+    },
+    {
+     "label": "母父:スペシャルウィーク × 芝",
+     "edge": 0.092,
+     "n": 2193,
+     "contrib": 0.02,
+     "note": "産駒の芝ダート適性。自身5戦なので血統の重み×0.55",
+     "top3_rate": 0.417
+    },
+    {
+     "label": "距離帯 中距離(1801-2200)",
+     "edge": null,
+     "n": 0,
+     "contrib": 0.0,
+     "note": "データなし"
+    },
+    {
+     "label": "2000m",
+     "edge": null,
+     "n": 0,
+     "contrib": 0.0,
+     "note": "データなし"
+    },
+    {
+     "label": "芝",
+     "edge": 0.238,
+     "n": 5,
+     "contrib": 0.0,
+     "note": "※自身の平均比",
+     "top3_rate": 0.6
+    },
+    {
+     "label": "浜中騎乗",
+     "edge": null,
+     "n": 0,
+     "contrib": 0.0,
+     "note": "データなし"
+    },
+    {
+     "label": "秋華賞実績",
+     "edge": null,
+     "n": 0,
+     "contrib": 0.0,
+     "note": "データなし"
+    },
+    {
+     "label": "母父:スペシャルウィークの強さ",
+     "edge": 0.069,
+     "n": 2511,
+     "contrib": 0.0,
+     "note": "産駒全体の成績。自身5戦なので血統の重み×0.55",
+     "top3_rate": 0.409
+    }
+   ],
+   "score": 49.2,
+   "mark": "",
+   "rank": 13,
+   "actual": null,
+   "thin": {
+    "flag": true,
+    "career_n": 5,
+    "thin_share": 0.33
    }
   },
   {
    "horse_id": "2023103818",
    "horse_name": "ラベルセーヌ",
-   "fit": 0.098,
+   "fit": 0.096,
    "fit_good": [
     "芝",
     "右回り",
@@ -3975,11 +4233,11 @@
    "horse_no": 6,
    "frame": 3,
    "jockey": "荻野極",
-   "odds": 12.1,
+   "odds": 11.0,
    "popularity": 3,
    "main_style": "差し",
    "career_n": 3,
-   "raw": 4.2254,
+   "raw": 4.5308,
    "reasons": [
     {
      "label": "総合力",
@@ -4018,6 +4276,14 @@
      "n": 17,
      "contrib": -0.4,
      "note": "展開が向かない"
+    },
+    {
+     "label": "馬場良",
+     "edge": 0.087,
+     "n": 2,
+     "contrib": 0.306,
+     "note": "※自身の平均比",
+     "top3_rate": 0.5
     },
     {
      "label": "斤量+2.0kg（前走53→今回55）",
@@ -4093,15 +4359,15 @@
     {
      "label": "産駒:キズナ × 芝",
      "edge": 0.03,
-     "n": 2040,
+     "n": 2041,
      "contrib": 0.012,
      "note": "産駒の芝ダート適性。自身3戦なので血統の重み×0.67",
-     "top3_rate": 0.394
+     "top3_rate": 0.393
     },
     {
      "label": "産駒:キズナの強さ",
      "edge": 0.028,
-     "n": 2505,
+     "n": 2506,
      "contrib": 0.009,
      "note": "産駒全体の成績。自身3戦なので血統の重み×0.67",
      "top3_rate": 0.393
@@ -4109,7 +4375,7 @@
     {
      "label": "母父:(米) × 芝",
      "edge": 0.007,
-     "n": 6434,
+     "n": 6437,
      "contrib": 0.002,
      "note": "産駒の芝ダート適性。自身3戦なので血統の重み×0.67",
      "top3_rate": 0.385
@@ -4139,13 +4405,6 @@
      "top3_rate": 0.667
     },
     {
-     "label": "馬場-",
-     "edge": null,
-     "n": 0,
-     "contrib": 0.0,
-     "note": "データなし"
-    },
-    {
      "label": "京都",
      "edge": null,
      "n": 0,
@@ -4169,7 +4428,7 @@
     {
      "label": "母父:(米)の強さ",
      "edge": 0.023,
-     "n": 8504,
+     "n": 8507,
      "contrib": 0.0,
      "note": "産駒全体の成績。自身3戦なので血統の重み×0.67",
      "top3_rate": 0.391
@@ -4182,9 +4441,9 @@
      "note": "データなし"
     }
    ],
-   "score": 52.3,
+   "score": 46.3,
    "mark": "",
-   "rank": 13,
+   "rank": 14,
    "actual": null,
    "thin": {
     "flag": true,
@@ -4193,241 +4452,12 @@
    }
   },
   {
-   "horse_id": "2023107265",
-   "horse_name": "フェスティバルヒル",
-   "fit": 0.104,
-   "fit_good": [
-    "芝",
-    "京都"
-   ],
-   "fit_bad": [
-    "G1実績"
-   ],
-   "horse_no": 15,
-   "frame": 8,
-   "jockey": "浜中",
-   "odds": 119.0,
-   "popularity": 15,
-   "main_style": "差し",
-   "career_n": 5,
-   "raw": 4.1314,
-   "reasons": [
-    {
-     "label": "総合力",
-     "edge": 0.908,
-     "n": 5,
-     "contrib": 2.723,
-     "note": "",
-     "top3_rate": 0.6
-    },
-    {
-     "label": "スローペース実績",
-     "edge": 1.385,
-     "n": 3,
-     "contrib": 1.246,
-     "note": "予測ペースでの過去成績",
-     "top3_rate": 1.0
-    },
-    {
-     "label": "京都",
-     "edge": 0.243,
-     "n": 1,
-     "contrib": 0.949,
-     "note": "※自身の平均比",
-     "top3_rate": 1.0
-    },
-    {
-     "label": "G1実績",
-     "edge": -0.167,
-     "n": 1,
-     "contrib": -0.477,
-     "note": "※自身の平均比",
-     "top3_rate": 0.0
-    },
-    {
-     "label": "斤量+3.0kg（前走52→今回55）",
-     "edge": -3.0,
-     "n": 1,
-     "contrib": -0.45,
-     "note": "前走比。軽くなれば加点"
-    },
-    {
-     "label": "展開:スローペース × 差し",
-     "edge": -0.5,
-     "n": 17,
-     "contrib": -0.4,
-     "note": "展開が向かない"
-    },
-    {
-     "label": "右回り",
-     "edge": 0.102,
-     "n": 4,
-     "contrib": 0.279,
-     "note": "※自身の平均比",
-     "top3_rate": 0.5
-    },
-    {
-     "label": "休み明け(3〜6ヶ月)(77日)",
-     "edge": -0.286,
-     "n": 2,
-     "contrib": -0.171,
-     "note": "同じ間隔での過去成績",
-     "top3_rate": 0.0
-    },
-    {
-     "label": "厩舎:四位洋文",
-     "edge": 0.27,
-     "n": 171,
-     "contrib": 0.162,
-     "note": "調教師の重賞級での成績",
-     "top3_rate": 0.281
-    },
-    {
-     "label": "脚質:差し",
-     "edge": 0.417,
-     "n": 481,
-     "contrib": 0.094,
-     "note": "このコースでの脚質傾向。104レースから。信頼度×0.57",
-     "top3_rate": 0.306
-    },
-    {
-     "label": "産駒:サートゥルナーリア × 芝",
-     "edge": 0.265,
-     "n": 239,
-     "contrib": 0.087,
-     "note": "産駒の芝ダート適性。自身5戦なので血統の重み×0.55",
-     "top3_rate": 0.49
-    },
-    {
-     "label": "産駒:サートゥルナーリア × 中距離(1801-2200)",
-     "edge": 0.265,
-     "n": 61,
-     "contrib": 0.087,
-     "note": "産駒の距離適性。自身5戦なので血統の重み×0.55",
-     "top3_rate": 0.508
-    },
-    {
-     "label": "産駒:サートゥルナーリアの強さ",
-     "edge": 0.257,
-     "n": 251,
-     "contrib": 0.07,
-     "note": "産駒全体の成績。自身5戦なので血統の重み×0.55",
-     "top3_rate": 0.486
-    },
-    {
-     "label": "近況(5走)",
-     "edge": 0.478,
-     "n": 5,
-     "contrib": -0.066,
-     "note": "直近ほど重い加重平均"
-    },
-    {
-     "label": "牝馬",
-     "edge": -0.129,
-     "n": 166,
-     "contrib": -0.064,
-     "note": "この条件での性別の傾向",
-     "top3_rate": 0.181
-    },
-    {
-     "label": "枠8の有利不利",
-     "edge": 0.201,
-     "n": 192,
-     "contrib": 0.04,
-     "note": "このコースでの枠傾向。104レースから。信頼度×0.57",
-     "top3_rate": 0.26
-    },
-    {
-     "label": "母父:スペシャルウィーク × 中距離(1801-2200)",
-     "edge": 0.139,
-     "n": 584,
-     "contrib": 0.03,
-     "note": "産駒の距離適性。自身5戦なので血統の重み×0.55",
-     "top3_rate": 0.437
-    },
-    {
-     "label": "3歳",
-     "edge": -0.053,
-     "n": 175,
-     "contrib": -0.026,
-     "note": "この条件での年齢の傾向",
-     "top3_rate": 0.2
-    },
-    {
-     "label": "母父:スペシャルウィーク × 芝",
-     "edge": 0.092,
-     "n": 2192,
-     "contrib": 0.02,
-     "note": "産駒の芝ダート適性。自身5戦なので血統の重み×0.55",
-     "top3_rate": 0.417
-    },
-    {
-     "label": "距離帯 中距離(1801-2200)",
-     "edge": null,
-     "n": 0,
-     "contrib": 0.0,
-     "note": "データなし"
-    },
-    {
-     "label": "2000m",
-     "edge": null,
-     "n": 0,
-     "contrib": 0.0,
-     "note": "データなし"
-    },
-    {
-     "label": "芝",
-     "edge": 0.238,
-     "n": 5,
-     "contrib": 0.0,
-     "note": "※自身の平均比",
-     "top3_rate": 0.6
-    },
-    {
-     "label": "馬場-",
-     "edge": null,
-     "n": 0,
-     "contrib": 0.0,
-     "note": "データなし"
-    },
-    {
-     "label": "浜中騎乗",
-     "edge": null,
-     "n": 0,
-     "contrib": 0.0,
-     "note": "データなし"
-    },
-    {
-     "label": "秋華賞実績",
-     "edge": null,
-     "n": 0,
-     "contrib": 0.0,
-     "note": "データなし"
-    },
-    {
-     "label": "母父:スペシャルウィークの強さ",
-     "edge": 0.07,
-     "n": 2510,
-     "contrib": 0.0,
-     "note": "産駒全体の成績。自身5戦なので血統の重み×0.55",
-     "top3_rate": 0.409
-    }
-   ],
-   "score": 51.7,
-   "mark": "",
-   "rank": 14,
-   "actual": null,
-   "thin": {
-    "flag": true,
-    "career_n": 5,
-    "thin_share": 0.38
-   }
-  },
-  {
    "horse_id": "2023102906",
    "horse_name": "バースデイフライト",
-   "fit": 0.006,
-   "fit_good": [],
+   "fit": 0.044,
+   "fit_good": [
+    "馬場良"
+   ],
    "fit_bad": [
     "距離帯 中距離(1801-2200)",
     "2000m"
@@ -4435,11 +4465,11 @@
    "horse_no": 7,
    "frame": 4,
    "jockey": "田山",
-   "odds": 144.2,
+   "odds": 275.3,
    "popularity": 16,
    "main_style": "差し",
    "career_n": 9,
-   "raw": 3.4534,
+   "raw": 4.2782,
    "reasons": [
     {
      "label": "総合力",
@@ -4448,6 +4478,14 @@
      "contrib": 2.093,
      "note": "",
      "top3_rate": 0.444
+    },
+    {
+     "label": "馬場良",
+     "edge": 0.235,
+     "n": 8,
+     "contrib": 0.825,
+     "note": "※自身の平均比",
+     "top3_rate": 0.5
     },
     {
      "label": "スローペース実績",
@@ -4577,7 +4615,7 @@
     {
      "label": "母父:(米) × 芝",
      "edge": 0.007,
-     "n": 6434,
+     "n": 6437,
      "contrib": 0.001,
      "note": "産駒の芝ダート適性。自身9戦なので血統の重み×0.40",
      "top3_rate": 0.385
@@ -4607,13 +4645,6 @@
      "top3_rate": 0.444
     },
     {
-     "label": "馬場-",
-     "edge": null,
-     "n": 0,
-     "contrib": 0.0,
-     "note": "データなし"
-    },
-    {
      "label": "G1実績",
      "edge": null,
      "n": 0,
@@ -4637,26 +4668,26 @@
     {
      "label": "母父:(米)の強さ",
      "edge": 0.023,
-     "n": 8504,
+     "n": 8507,
      "contrib": 0.0,
      "note": "産駒全体の成績。自身9戦なので血統の重み×0.40",
      "top3_rate": 0.391
     }
    ],
-   "score": 47.3,
+   "score": 44.5,
    "mark": "",
    "rank": 15,
    "actual": null,
    "thin": {
     "flag": false,
     "career_n": 9,
-    "thin_share": 0.1
+    "thin_share": 0.08
    }
   },
   {
    "horse_id": "2023105420",
    "horse_name": "ナイスプレーアスク",
-   "fit": -0.058,
+   "fit": -0.039,
    "fit_good": [
     "右回り"
    ],
@@ -4667,11 +4698,11 @@
    "horse_no": 10,
    "frame": 5,
    "jockey": "岩田康",
-   "odds": 180.5,
+   "odds": 294.0,
    "popularity": 17,
    "main_style": "逃げ",
    "career_n": 8,
-   "raw": 3.0854,
+   "raw": 3.2115,
    "reasons": [
     {
      "label": "総合力",
@@ -4726,6 +4757,14 @@
      "contrib": 0.127,
      "note": "このコースでの脚質傾向。104レースから。信頼度×0.57",
      "top3_rate": 0.356
+    },
+    {
+     "label": "馬場良",
+     "edge": 0.036,
+     "n": 6,
+     "contrib": 0.126,
+     "note": "※自身の平均比",
+     "top3_rate": 0.333
     },
     {
      "label": "中5〜10週(42日)",
@@ -4824,13 +4863,6 @@
      "top3_rate": 0.375
     },
     {
-     "label": "馬場-",
-     "edge": null,
-     "n": 0,
-     "contrib": 0.0,
-     "note": "データなし"
-    },
-    {
      "label": "京都",
      "edge": null,
      "n": 0,
@@ -4867,7 +4899,7 @@
      "top3_rate": 0.375
     }
    ],
-   "score": 44.9,
+   "score": 37.2,
    "mark": "",
    "rank": 16,
    "actual": null,
@@ -4880,10 +4912,11 @@
   {
    "horse_id": "2023103661",
    "horse_name": "ロザーンジュ",
-   "fit": 0.066,
+   "fit": 0.119,
    "fit_good": [
     "距離帯 中距離(1801-2200)",
-    "芝"
+    "芝",
+    "馬場良"
    ],
    "fit_bad": [
     "京都"
@@ -4891,11 +4924,11 @@
    "horse_no": 17,
    "frame": 8,
    "jockey": "今村",
-   "odds": 63.1,
-   "popularity": 11,
+   "odds": 142.7,
+   "popularity": 14,
    "main_style": "追込",
    "career_n": 7,
-   "raw": 0.8055,
+   "raw": 2.1585,
    "reasons": [
     {
      "label": "総合力",
@@ -4904,6 +4937,14 @@
      "contrib": 1.769,
      "note": "",
      "top3_rate": 0.429
+    },
+    {
+     "label": "馬場良",
+     "edge": 0.385,
+     "n": 5,
+     "contrib": 1.353,
+     "note": "※自身の平均比",
+     "top3_rate": 0.6
     },
     {
      "label": "京都",
@@ -5023,13 +5064,6 @@
      "top3_rate": 0.429
     },
     {
-     "label": "馬場-",
-     "edge": null,
-     "n": 0,
-     "contrib": 0.0,
-     "note": "データなし"
-    },
-    {
      "label": "G1実績",
      "edge": null,
      "n": 0,
@@ -5069,7 +5103,7 @@
  "draw_pending": false,
  "market": {
   "lines": [
-   "◎ハヤブササキチャンは8番人気 → ◎が4人気以下だった時の実績: 複勝率23%（過去145R）",
+   "◎ハヤブササキチャンは9番人気 → ◎が4人気以下だった時の実績: 複勝率23%（過去145R）",
    "  ⚠ モデル単独の穴推しゾーン。軸にするなら理由表示を見て納得できる時だけ",
    "1番人気モンローウォークをモデルは2位評価 → 同じ立場の1番人気の実績: 複勝率64%（過去98R）"
   ],
