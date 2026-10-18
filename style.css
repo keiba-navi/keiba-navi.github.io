@@ -104,3 +104,9 @@ td.num, th.num { text-align: right; }
 
 .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px; }
 footer { padding: 24px 16px; color: var(--muted); font-size: 12px; }
+
+.hit3 { color: var(--good); font-weight: 600; }
+tr.inmoney td { background: rgba(46,160,67,.10); }
+.gap { font-size: 11px; margin-left: 2px; }
+.gap.up { color: var(--good); }
+.gap.down { color: var(--muted); }

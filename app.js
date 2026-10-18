@@ -102,30 +102,61 @@ async function showRace(raceId) {
       ${esc(d.pace.comment)}</p>` : ""}`;
   body.appendChild(head);
 
-  // 予想表。オッズが取れているときだけ期待値の列を出す
-  const evRows = (d.bets && d.bets.rows) || [];
-  const evByNo = {};
-  evRows.forEach((r) => { evByNo[r.horse_no] = r; });
-  const hasOdds = d.bets && d.bets.has_odds;
+  // 結果が出ているレースは、予想×人気×結果を1か所で見られる結果カードを先頭に出す
+  const R = d.result;
+  if (R) {
+    const rc = card("結果と予想の突き合わせ", null);
+    const top3 = R.top3.map((x) =>
+      `<tr><td class="num">${x.finish}着</td><td class="num">${x.horse_no}</td>
+        <td><b>${esc(x.horse_name)}</b></td>
+        <td class="mark">${esc(x.my_mark || "")}</td>
+        <td class="num">${x.my_rank ?? "-"}位</td>
+        <td class="num">${x.popularity ?? "-"}番人気</td>
+        <td class="num">${x.odds ?? "-"}倍</td></tr>`).join("");
+    const pay = Object.entries(R.payouts || {}).map(([k, v]) =>
+      `${esc(k)} ${v.map((y) => esc(y.combo) + " <b>" + y.amount.toLocaleString() + "円</b>").join(" / ")}`
+    ).join("　");
+    rc.insertAdjacentHTML("beforeend", `
+      <div class="tablewrap"><table>
+        <thead><tr><th class="num">着順</th><th class="num">馬番</th><th>馬名</th>
+          <th>私の印</th><th class="num">私の順位</th><th class="num">人気</th><th class="num">単勝</th></tr></thead>
+        <tbody>${top3}</tbody></table></div>
+      <p class="verdict">私の印${R.marks_total}頭のうち3着以内 <b>${R.marks_in_top3}頭</b> ／
+        人気上位5頭のうち3着以内 <b>${R.pop5_in_top3}頭</b></p>
+      <p class="cond">${pay}</p>
+      <p class="cond">印の出どころ: ${esc(R.source)}</p>`);
+    body.appendChild(rc);
+  }
 
+  // 予想表: 私の印・順位 × 実際の人気・単勝オッズ × 実着順。
+  // 期待値の列は検証で回収率41〜55%だったため出さない（振り返り台帳 L2）。
   const t = el("table");
   t.innerHTML = `<thead><tr><th></th><th class="num">順</th><th class="num">馬番</th><th>馬名</th>
     <th>脚質</th><th>騎手</th><th class="num">スコア</th>
-    ${hasOdds ? '<th class="num">オッズ</th><th class="num">予想勝率</th><th class="num">期待値</th>' : ""}
+    <th class="num">人気</th><th class="num">単勝</th>
     <th class="num">実着順</th></tr></thead>`;
   const tb = el("tbody");
-  d.predictions.forEach((p, i) => {
+  // 予想時の順位（predictions_log）があればその順に並べる
+  const rows = d.predictions.slice().sort((x, y) => (x.logged_rank ?? x.rank) - (y.logged_rank ?? y.rank));
+  rows.forEach((p, i) => {
     const tr = el("tr");
-    const hitCls = p.actual === 1 ? "hit" : p.actual && p.actual <= 3 ? "" : "miss";
-    const ev = evByNo[p.horse_no] || {};
-    tr.innerHTML = `<td class="mark">${esc(p.mark || "")}</td>
-      <td class="num">${p.rank}</td><td class="num">${p.horse_no ?? "-"}</td>
+    const hitCls = p.actual === 1 ? "hit" : p.actual && p.actual <= 3 ? "hit3" : "miss";
+    const mark = p.logged_mark !== undefined ? p.logged_mark : p.mark;
+    const rank = p.logged_rank ?? p.rank;
+    // 人気が私の順位より上(数字が小さい)なら「市場の方が高評価」、下なら「私の方が高評価」
+    let gap = "";
+    if (p.popularity != null && rank != null) {
+      const diff = p.popularity - rank;
+      if (diff >= 4) gap = ` <span class="gap up" title="私の順位が人気より${diff}つ上">▲</span>`;
+      else if (diff <= -4) gap = ` <span class="gap down" title="人気が私の順位より${-diff}つ上">▼</span>`;
+    }
+    if (p.actual && p.actual <= 3) tr.className = "inmoney";
+    tr.innerHTML = `<td class="mark">${esc(mark || "")}</td>
+      <td class="num">${rank}</td><td class="num">${p.horse_no ?? "-"}</td>
       <td><b>${esc(p.horse_name)}</b></td><td>${esc(p.main_style || "-")}</td>
-      <td>${esc(p.jockey || "-")}</td><td class="num">${p.score}</td>
-      ${hasOdds ? `<td class="num">${p.odds ?? "-"}</td>
-        <td class="num">${ev.win_prob != null ? pct(ev.win_prob) : "-"}</td>
-        <td class="num" style="color:${(ev.ev ?? 0) >= 1 ? "var(--good)" : "var(--muted)"}">
-          ${ev.ev != null ? ev.ev.toFixed(2) : "-"}</td>` : ""}
+      <td>${esc(p.jockey || "-")}</td><td class="num">${p.logged_score ?? p.score}</td>
+      <td class="num">${p.popularity != null ? p.popularity + "人気" : "-"}${gap}</td>
+      <td class="num">${p.odds ?? "-"}</td>
       <td class="num ${hitCls}">${p.actual ?? "-"}</td>`;
     tr.onclick = () => showReasons(p, i);
     tb.appendChild(tr);
@@ -133,7 +164,7 @@ async function showRace(raceId) {
   t.appendChild(tb);
   const wrap = card("予想", el("div", "tablewrap"));
   wrap.querySelector(".tablewrap").appendChild(t);
-  wrap.appendChild(el("p", "cond", "行をクリックすると根拠を表示"));
+  wrap.appendChild(el("p", "cond", "行をクリックすると根拠を表示。人気・単勝は実際の市場の値（印には混ぜていません）。▲＝私の順位が人気より4つ以上上、▼＝人気が私の順位より4つ以上上。色付き行は3着以内"));
   const reasonBox = el("div");
   reasonBox.id = "reasonBox";
   wrap.appendChild(reasonBox);
